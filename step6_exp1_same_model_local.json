@@ -1,0 +1,3894 @@
+[
+  {
+    "id": "Q1",
+    "original_question": "1. (5 points) Given the set $A=\\{x \\in R|| x \\mid \\leqslant 2\\}\\}, B=\\{x \\in Z \\mid \\sqrt{x} \\leqslant 4\\}$, then $A \\cap B=(\\quad$\uff09",
+    "original_answer": "D",
+    "options": {
+      "A": "$(0,2)$",
+      "B": "$[0,2]$",
+      "C": "$\\{0,2\\}$",
+      "D": "$\\{0,1,2\\}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "1. (5 points) Given the set $A=\\{x \\in R|| x \\mid \\leqslant 2\\}\\}, B=\\{x \\in Z \\mid \\sqrt{x} \\leqslant 4\\}$, then $A \\cap B=(\\quad$\uff09",
+        "options": [
+          "$(0,2)$",
+          "$[0,2]$",
+          "$\\{0,2\\}$",
+          "$\\{0,1,2\\}$"
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: Find the elements of set A.\nStep 2: Find the elements of set B.\nStep 3: Find the intersection of sets A and B.\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019449.2465081,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.05,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.08,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.7
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.23,
+            "internal_based_confidence": 0.81
+          }
+        }
+      },
+      {
+        "augmented_question": "1. (5 points) Given the set $A=\\{x \\in R|| x \\mid \\leqslant 2\\}\\}, B=\\{x \\in Z \\mid \\sqrt{x} \\leqslant 4\\}$, then $A \\cap B=(\\quad$\uff09",
+        "options": [
+          "$(0,2)$",
+          "$[0,2]$",
+          "$\\{0,2\\}$",
+          "$\\{0,1,2\\}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Determine the elements in set A. Set A contains all real numbers whose absolute value is less than or equal to 2. Therefore, the elements in set A are {0, 1, -1, 2}.\nStep 2: Determine the elements in set B. Set B contains all integers whose square root is less than or equal to 4. Therefore, the elements in set B are {-4, -2, 0, 2, 4}.\nStep 3: Find the elements that are common to both sets by comparing the elements in each set. The only element that is in both sets is 0.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019455.10301,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.4,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.06,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.72
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.31,
+            "internal_based_confidence": 0.82
+          }
+        }
+      },
+      {
+        "augmented_question": "1. (5 points) Given the set $A=\\{x \\in R|| x \\mid \\leqslant 2\\}\\}, B=\\{x \\in Z \\mid \\sqrt{x} \\leqslant 4\\}$, then $A \\cap B=(\\quad$\uff09",
+        "options": [
+          "$(0,2)$",
+          "$[0,2]$",
+          "$\\{0,2\\}$",
+          "$\\{0,1,2\\}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Find the intersection of A and B.\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019460.4474509,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.15,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.2,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.2,
+            "internal_based_confidence": 0.88
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q5",
+    "original_question": "6. (5 points) The probability of germination of a certain seed is 0.9, and 1,000 seeds have been sown. For seeds that have not germinated, 2 more seeds need to be replanted per seed. The number of seeds for replanting is recorded as$X$, then $X$The mathematical expectation is$(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "300",
+      "D": "400"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "6. (5 points) The probability of germination of a certain seed is 0.9, and 1,000 seeds have been sown. For seeds that have not germinated, 2 more seeds need to be replanted per seed. The number of seeds for replanting is recorded as$X$, then $X$The mathematical expectation is$(\\quad)$",
+        "options": [
+          "100",
+          "200",
+          "300",
+          "400"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Calculate the number of seeds that have not germinated.\nStep 2: Calculate the value of $X$.\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019471.616891,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.7
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.4,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.76
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.38,
+            "internal_based_confidence": 0.81
+          }
+        }
+      },
+      {
+        "augmented_question": "6. (5 points) The probability of germination of a certain seed is 0.9, and 1,000 seeds have been sown. For seeds that have not germinated, 2 more seeds need to be replanted per seed. The number of seeds for replanting is recorded as$X$, then $X$The mathematical expectation is$(\\quad)$",
+        "options": [
+          "100",
+          "200",
+          "300",
+          "400"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: Identify the random variable and its distribution. In this case, the random variable is X, which represents the number of seeds that need to be replanted. Since the probability of germination is fixed at 0.9 and the number of seeds sown is constant, we can say that X follows a binomial distribution with parameters n = 1000 (number of seeds sown) and p = 0.9 (probability of germination).\nStep 2: Calculate the mean of the binomial distribution. The mean of a binomial distribution is given by np, where n is the number of trials and p is the probability of success. In this case, the mean is 1000 * 0.9 = 900.\nStep 3: Therefore, the expected value of X is 900. Answer: A. 900\nAnswer: A",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019477.864928,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.26,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.14,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.23,
+            "internal_based_confidence": 0.84
+          }
+        }
+      },
+      {
+        "augmented_question": "6. (5 points) The probability of germination of a certain seed is 0.9, and 1,000 seeds have been sown. For seeds that have not germinated, 2 more seeds need to be replanted per seed. The number of seeds for replanting is recorded as$X$, then $X$The mathematical expectation is$(\\quad)$",
+        "options": [
+          "100",
+          "200",
+          "300",
+          "400"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019486.987964,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.3,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.78
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.87,
+            "logit_based_confidence": 0.23,
+            "internal_based_confidence": 0.89
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q12",
+    "original_question": "4. (5 points) There are 3 interest groups, and students A and B each participate in one of the groups. The possibility of each student joining each group is the same. The probability of these two students joining the same interest group is ( )",
+    "original_answer": "A",
+    "options": {
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{1}{2}$",
+      "C": "$\\frac{2}{3}$",
+      "D": "$\\frac{3}{4}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "4. (5 points) There are 3 interest groups, and students A and B each participate in one of the groups. The possibility of each student joining each group is the same. The probability of these two students joining the same interest group is ( )",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We can use the concept of permutations to solve this problem. Since there are 3 interest groups and 2 students, we need to find the number of ways to arrange the students into the groups.\nStep 2: To find the total number of arrangements, we can use the factorial formula n! = n*(n-1)*(n-2)*...*1, where n is the number of items being arranged. In this case, n=2.\nStep 3: The number of ways to arrange the students into the groups will be the product of the number of ways to arrange the students within each group. Since each student has an equal chance of joining any group, we can assume that each group has 2 members. Therefore, there are 2! = 2 ways to arrange the students within each group.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019498.3337312,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.14,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.75
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.38,
+            "internal_based_confidence": 0.9
+          }
+        }
+      },
+      {
+        "augmented_question": "4. (5 points) There are 3 interest groups, and students A and B each participate in one of the groups. The possibility of each student joining each group is the same. The probability of these two students joining the same interest group is ( )",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: Identify the total number of possible outcomes.\nStep 2: Identify the number of favorable outcomes.\nStep 3: Calculate the probability using the formula for probability.\nAnswer: C",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019505.445589,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.12,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.22,
+            "internal_based_confidence": 0.87
+          }
+        }
+      },
+      {
+        "augmented_question": "4. (5 points) There are 3 interest groups, and students A and B each participate in one of the groups. The possibility of each student joining each group is the same. The probability of these two students joining the same interest group is ( )",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Identify the number of ways that both students can join the same group: This is given as \"3^2\" because there are three possible groups for each student and we need to choose two of them.\nStep 2: Identify the total number of ways that both students can join different groups: This is given by the product of the number of ways each student can join their respective group, which is also \"3\". We need to multiply this by the number of ways the other student can join a different group from the first student, which is also \"3\".\nStep 3: Calculate the probability: To find the probability of both students joining the same group, we divide the number of ways they can join the same group by the total number of ways they can join different groups. This gives us:\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019512.782699,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.73
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.27,
+            "internal_based_confidence": 0.84
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q15",
+    "original_question": "8. (5 points)$\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$In the expansion formula, the sum of the coefficients of each term is 2, then the constant term in the expansion formula is$(\\quad)$",
+    "original_answer": "D",
+    "options": {
+      "A": "-40",
+      "B": "-20",
+      "C": "20",
+      "D": "40"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "8. (5 points)$\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$In the expansion formula, the sum of the coefficients of each term is 2, then the constant term in the expansion formula is$(\\quad)$",
+        "options": [
+          "-40",
+          "-20",
+          "20",
+          "40"
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: Expand $(2x - \\frac{1}{x})^5$ using the binomial theorem. We have:\nStep 2: Multiply the expanded terms by $x + \\frac{a}{x}$.\nStep 3: Since the sum of the coefficients of each term is 2, we know that the coefficient of $x^5$ must be 2. Therefore, $a^2 = 0$. This implies that $a = 0$.\nAnswer: T",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019528.407727,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.84
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.87,
+            "logit_based_confidence": 0.0,
+            "internal_based_confidence": 0.84
+          }
+        }
+      },
+      {
+        "augmented_question": "8. (5 points)$\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$In the expansion formula, the sum of the coefficients of each term is 2, then the constant term in the expansion formula is$(\\quad)$",
+        "options": [
+          "-40",
+          "-20",
+          "20",
+          "40"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019540.726329,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.2,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.18,
+              "internal_based_confidence": 0.78
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.87,
+            "logit_based_confidence": 0.18,
+            "internal_based_confidence": 0.89
+          }
+        }
+      },
+      {
+        "augmented_question": "8. (5 points)$\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$In the expansion formula, the sum of the coefficients of each term is 2, then the constant term in the expansion formula is$(\\quad)$",
+        "options": [
+          "-40",
+          "-20",
+          "20",
+          "40"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019557.417757,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.11,
+              "internal_based_confidence": 0.74
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.11,
+            "internal_based_confidence": 0.88
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q20",
+    "original_question": "3. (5 points) The following is about the plural$z=\\frac{2}{-1+i}$The four propositions of$(\\quad)$,$p_{1}:|z|=2$,$\\mathrm{p}_{2}: \\mathrm{z}^{2}=2 \\mathrm{i}$,$p_{3}: z$The conjugated complex number is$1+i$,$p_{4}: z$The imaginary part is -1.",
+    "original_answer": "C",
+    "options": {
+      "A": "$\\mathrm{p}_{2}, \\mathrm{p}_{3}$",
+      "B": "$p_{1}, p_{2}$",
+      "C": "$\\mathrm{p}_{2}, \\mathrm{p}_{4}$",
+      "D": "$p_{3}, p_{4}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "3. (5 points) The following is about the plural$z=\\frac{2}{-1+i}$The four propositions of$(\\quad)$,$p_{1}:|z|=2$,$\\mathrm{p}_{2}: \\mathrm{z}^{2}=2 \\mathrm{i}$,$p_{3}: z$The conjugated complex number is$1+i$,$p_{4}: z$The imaginary part is -1.",
+        "options": [
+          "$\\mathrm{p}_{2}, \\mathrm{p}_{3}$",
+          "$p_{1}, p_{2}$",
+          "$\\mathrm{p}_{2}, \\mathrm{p}_{4}$",
+          "$p_{3}, p_{4}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Convert $z = \\frac{2}{-1 + i}$ into polar form.\nStep 2: Check if $p_1$ is true.\nStep 3: Check if $p_2$ is true.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019573.991856,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.29,
+              "internal_based_confidence": 0.82
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.29,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "3. (5 points) The following is about the plural$z=\\frac{2}{-1+i}$The four propositions of$(\\quad)$,$p_{1}:|z|=2$,$\\mathrm{p}_{2}: \\mathrm{z}^{2}=2 \\mathrm{i}$,$p_{3}: z$The conjugated complex number is$1+i$,$p_{4}: z$The imaginary part is -1.",
+        "options": [
+          "$\\mathrm{p}_{2}, \\mathrm{p}_{3}$",
+          "$p_{1}, p_{2}$",
+          "$\\mathrm{p}_{2}, \\mathrm{p}_{4}$",
+          "$p_{3}, p_{4}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Determine $z$. We have that $z = \\frac{2}{-1 + i} = \\frac{2(-1 - i)}{(-1)^2 + 1^2} = -1 - i.$\nStep 2: Evaluate $|z|$. Since $|z| = \\sqrt{a^2 + b^2} = \\sqrt{(-1)^2 + (-1)^2} = \\sqrt{2},$ we see that $\\text{p}_1$ is false.\nStep 3: Evaluate $z^2$. We have that $z^2 = (-1 - i)^2 = (-1)^2 - 2i + i^2 = 1 - 2i + (-1)(-1) = 1 + 2i.$ Therefore, $\\text{p}_2$ is true.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019584.6748438,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.2,
+              "internal_based_confidence": 0.71
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.88
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.25,
+            "internal_based_confidence": 0.8
+          }
+        }
+      },
+      {
+        "augmented_question": "3. (5 points) The following is about the plural$z=\\frac{2}{-1+i}$The four propositions of$(\\quad)$,$p_{1}:|z|=2$,$\\mathrm{p}_{2}: \\mathrm{z}^{2}=2 \\mathrm{i}$,$p_{3}: z$The conjugated complex number is$1+i$,$p_{4}: z$The imaginary part is -1.",
+        "options": [
+          "$\\mathrm{p}_{2}, \\mathrm{p}_{3}$",
+          "$p_{1}, p_{2}$",
+          "$\\mathrm{p}_{2}, \\mathrm{p}_{4}$",
+          "$p_{3}, p_{4}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Evaluate $|z|$:\nStep 2: Evaluate $z^2$:\nStep 3: Evaluate $z^*$:\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019601.390194,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.09,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.72
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.85,
+            "logit_based_confidence": 0.07,
+            "internal_based_confidence": 0.9
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q26",
+    "original_question": "3. (5 points) In order to understand the vision of primary and secondary school students in a certain area, some students are planned to be selected from the primary and secondary school students in the area for investigation. We have learned in advance that there are significant differences in vision of students in primary, junior and high school in the area, while there is not much difference in vision of male and female students. Among the following sampling methods, the most reasonable sampling method is ()",
+    "original_answer": "C",
+    "options": {
+      "A": "Simple random sampling",
+      "B": "Sampling by gender",
+      "C": "Sampling by stage of study",
+      "D": "System sampling"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "3. (5 points) In order to understand the vision of primary and secondary school students in a certain area, some students are planned to be selected from the primary and secondary school students in the area for investigation. We have learned in advance that there are significant differences in vision of students in primary, junior and high school in the area, while there is not much difference in vision of male and female students. Among the following sampling methods, the most reasonable sampling method is ()",
+        "options": [
+          "Simple random sampling",
+          "Sampling by gender",
+          "Sampling by stage of study",
+          "System sampling"
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: Identify the research objective - The objective of the study is to understand the vision of primary and secondary school students in a certain area.\nStep 2: Determine the population - The population includes all primary and secondary school students in the area.\nStep 3: Define the sample size - Since we want to investigate the vision of students in primary, junior and high school in the area, we need to select a representative sample from each level of education. Therefore, the sample size should be equal to the number of students in each level of education.\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019608.615809,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.35,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.12,
+              "internal_based_confidence": 0.75
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.12,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "3. (5 points) In order to understand the vision of primary and secondary school students in a certain area, some students are planned to be selected from the primary and secondary school students in the area for investigation. We have learned in advance that there are significant differences in vision of students in primary, junior and high school in the area, while there is not much difference in vision of male and female students. Among the following sampling methods, the most reasonable sampling method is ()",
+        "options": [
+          "Simple random sampling",
+          "Sampling by gender",
+          "Sampling by stage of study",
+          "System sampling"
+        ],
+        "predicted_answer": "B",
+        "reasoning": "Step 1: Identify the population and sample frame.\nStep 2: Determine the sampling method.\nStep 3: Select the sample size.\nAnswer: B",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019619.3915288,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.31,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "3. (5 points) In order to understand the vision of primary and secondary school students in a certain area, some students are planned to be selected from the primary and secondary school students in the area for investigation. We have learned in advance that there are significant differences in vision of students in primary, junior and high school in the area, while there is not much difference in vision of male and female students. Among the following sampling methods, the most reasonable sampling method is ()",
+        "options": [
+          "Simple random sampling",
+          "Sampling by gender",
+          "Sampling by stage of study",
+          "System sampling"
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: Determine the purpose of the study.\nStep 2: Identify the population of interest.\nStep 3: Consider the sampling frame.\nAnswer: T",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019627.016552,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.82
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.78
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.0,
+            "internal_based_confidence": 0.89
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q36",
+    "original_question": "5. (5 points) Given$(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$where the expansion$\\mathrm{x}^{2}$The coefficient of$a=(\\quad)$",
+    "original_answer": "D",
+    "options": {
+      "A": "-4",
+      "B": "-3",
+      "C": "-2",
+      "D": "-1"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "5. (5 points) Given$(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$where the expansion$\\mathrm{x}^{2}$The coefficient of$a=(\\quad)$",
+        "options": [
+          "-4",
+          "-3",
+          "-2",
+          "-1"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: Expand $(1 + x)^5$ using the binomial theorem.\nStep 2: Identify the terms where $x$ appears to the power of 2.\nStep 3: Multiply each term by $a$ and sum up all the resulting terms.\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019636.270965,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.21,
+              "internal_based_confidence": 0.7
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.86
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.28,
+            "internal_based_confidence": 0.88
+          }
+        }
+      },
+      {
+        "augmented_question": "5. (5 points) Given$(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$where the expansion$\\mathrm{x}^{2}$The coefficient of$a=(\\quad)$",
+        "options": [
+          "-4",
+          "-3",
+          "-2",
+          "-1"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: Expand the binomial $(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$ using the Binomial Theorem.\nStep 2: Identify the term containing $a$ in the expanded expression.\nStep 3: Simplify the expression by combining like terms.\nAnswer: A",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019638.721714,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.08,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.83
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.09,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.09,
+            "internal_based_confidence": 0.81
+          }
+        }
+      },
+      {
+        "augmented_question": "5. (5 points) Given$(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$where the expansion$\\mathrm{x}^{2}$The coefficient of$a=(\\quad)$",
+        "options": [
+          "-4",
+          "-3",
+          "-2",
+          "-1"
+        ],
+        "predicted_answer": "N",
+        "reasoning": "Step 1: The binomial theorem states that $(a+b)^n = \\sum_{k=0}^n \\binom{n}{k}a^{n-k}b^k$, where $\\binom{n}{k}$ is the binomial coefficient.\nStep 2: Apply the binomial theorem to our expression by expanding it using $a=\\textit{ax}$ and $b=1$. This gives us:\nStep 3: Simplify each term in the sum by substituting the values of $a$ and $b$. We have:\nAnswer: N",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019652.6311839,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.84
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.0,
+            "internal_based_confidence": 0.89
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q50",
+    "original_question": "5. (5 points) The air quality monitoring data in a certain area shows that the probability of good air quality in one day is 0.75, the probability of good air quality in two consecutive days is 0.6, and it is known that the air quality in one day is excellent, then the probability of good air quality in the next day is ($)$",
+    "original_answer": "A",
+    "options": {
+      "A": "0.8",
+      "B": "0.75",
+      "C": "0.6",
+      "D": "0.45"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "5. (5 points) The air quality monitoring data in a certain area shows that the probability of good air quality in one day is 0.75, the probability of good air quality in two consecutive days is 0.6, and it is known that the air quality in one day is excellent, then the probability of good air quality in the next day is ($)$",
+        "options": [
+          "0.8",
+          "0.75",
+          "0.6",
+          "0.45"
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: We can use Bayes' theorem to solve this problem. Bayes' theorem states that P(A|B) = P(B|A) * P(A) / P(B), where A and B are events.\nStep 2: Let's define the events:\nStep 3: We want to find P(B|A'), which is the probability of good air quality on the next day given that good air quality was observed on the first day. To do this, we need to calculate P(A') and then use Bayes' theorem.\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019664.391774,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.82
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.85,
+            "logit_based_confidence": 0.17,
+            "internal_based_confidence": 0.89
+          }
+        }
+      },
+      {
+        "augmented_question": "5. (5 points) The air quality monitoring data in a certain area shows that the probability of good air quality in one day is 0.75, the probability of good air quality in two consecutive days is 0.6, and it is known that the air quality in one day is excellent, then the probability of good air quality in the next day is ($)$",
+        "options": [
+          "0.8",
+          "0.75",
+          "0.6",
+          "0.45"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: We know that the probability of good air quality in one day is 0.75.\nStep 2: We also know that the probability of good air quality in two consecutive days is 0.6.\nStep 3: Since we know that the air quality in one day is excellent, we can assume that it will be good for the next day as well. Therefore, the probability of good air quality in the next day is 0.75.\nAnswer: A",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019668.007045,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.87
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.77
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.23,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "5. (5 points) The air quality monitoring data in a certain area shows that the probability of good air quality in one day is 0.75, the probability of good air quality in two consecutive days is 0.6, and it is known that the air quality in one day is excellent, then the probability of good air quality in the next day is ($)$",
+        "options": [
+          "0.8",
+          "0.75",
+          "0.6",
+          "0.45"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We are given that the probability of good air quality in one day is 0.75.\nStep 2: We are also given that the probability of good air quality in two consecutive days is 0.6.\nStep 3: We know that the air quality in one day is excellent, which means that the probability of good air quality on that day is 1.0.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019672.8030431,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.14,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.11,
+              "internal_based_confidence": 0.82
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.37,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.37,
+            "internal_based_confidence": 0.83
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q67",
+    "original_question": "2. (5 points) Set$(1+i) x=1+y i$, in$x, y$is a real number, then$|x+y i|=(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "1",
+      "B": "$\\sqrt{2}$",
+      "C": "$\\sqrt{3}$",
+      "D": "2"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "2. (5 points) Set$(1+i) x=1+y i$, in$x, y$is a real number, then$|x+y i|=(\\quad)$",
+        "options": [
+          "1",
+          "$\\sqrt{2}$",
+          "$\\sqrt{3}$",
+          "2"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We have $|x + yi| = r$. Since $x$ and $y$ are real numbers, we know that $r$ is also a real number.\nStep 2: We can rewrite the equation $2(5) x = 1 + y i$ as $10x - y i = 1$. Taking the modulus of both sides, we get $r = \\sqrt{10^2 + (-y)^2} = \\sqrt{100 + y^2}$.\nStep 3: Therefore, the final answer is (D).\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019679.0744681,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.09,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.08,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.12,
+              "internal_based_confidence": 0.76
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.95,
+            "logit_based_confidence": 0.12,
+            "internal_based_confidence": 0.84
+          }
+        }
+      },
+      {
+        "augmented_question": "2. (5 points) Set$(1+i) x=1+y i$, in$x, y$is a real number, then$|x+y i|=(\\quad)$",
+        "options": [
+          "1",
+          "$\\sqrt{2}$",
+          "$\\sqrt{3}$",
+          "2"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Multiply both sides by $(1-i)$.\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019695.778232,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.89
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.15,
+              "internal_based_confidence": 0.86
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.15,
+            "internal_based_confidence": 0.82
+          }
+        }
+      },
+      {
+        "augmented_question": "2. (5 points) Set$(1+i) x=1+y i$, in$x, y$is a real number, then$|x+y i|=(\\quad)$",
+        "options": [
+          "1",
+          "$\\sqrt{2}$",
+          "$\\sqrt{3}$",
+          "2"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019699.5632179,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.82
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.78
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.19,
+            "internal_based_confidence": 0.89
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q69",
+    "original_question": "4. (5 points) The shuttle bus of a certain company is at 7:$00,8: 00,8: 30$Departure, Xiao Ming arrives at the departure station between 7:50 and 8:30 and takes a shuttle bus. The time to arrive at the departure station is random, so the probability that he will wait for the train for no more than 10 minutes is ($)$",
+    "original_answer": "B",
+    "options": {
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{1}{2}$",
+      "C": "$\\frac{2}{3}$",
+      "D": "$\\frac{3}{4}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "4. (5 points) The shuttle bus of a certain company is at 7:$00,8: 00,8: 30$Departure, Xiao Ming arrives at the departure station between 7:50 and 8:30 and takes a shuttle bus. The time to arrive at the departure station is random, so the probability that he will wait for the train for no more than 10 minutes is ($)$",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We need to find the probability that Xiao Ming waits for the train for no more than 10 minutes. This means that he either arrives within 10 minutes of his scheduled departure time or earlier.\nStep 2: Let's assume that Xiao Ming arrives at the departure station at time X. Then, the probability that he arrives within 10 minutes of his scheduled departure time is equal to the probability that X is less than or equal to 8:40. We can calculate this probability using the cumulative distribution function (CDF) of a uniform distribution on the interval [7:50, 8:30].\nStep 3: The CDF of a uniform distribution on the interval [a, b] is given by F(x) = x - a / (b - a), where x is any value in the interval. In our case, a = 7:50 and b = 8:30, so we have F(x) = x - 7:50 / (8:30 - 7:50).\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019711.8390558,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.16,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.05,
+              "internal_based_confidence": 0.83
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.05,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "4. (5 points) The shuttle bus of a certain company is at 7:$00,8: 00,8: 30$Departure, Xiao Ming arrives at the departure station between 7:50 and 8:30 and takes a shuttle bus. The time to arrive at the departure station is random, so the probability that he will wait for the train for no more than 10 minutes is ($)$",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: C",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019720.805655,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.16,
+              "internal_based_confidence": 0.71
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.82
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.29,
+              "internal_based_confidence": 0.78
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.85,
+            "logit_based_confidence": 0.29,
+            "internal_based_confidence": 0.83
+          }
+        }
+      },
+      {
+        "augmented_question": "4. (5 points) The shuttle bus of a certain company is at 7:$00,8: 00,8: 30$Departure, Xiao Ming arrives at the departure station between 7:50 and 8:30 and takes a shuttle bus. The time to arrive at the departure station is random, so the probability that he will wait for the train for no more than 10 minutes is ($)$",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{3}{4}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We need to find the probability that Xiao Ming will wait for the train for no more than 10 minutes. This means we need to find the probability that his arrival time is within the first 10 minutes after 7:00.\nStep 2: To do this, we can calculate the probability that his arrival time is within the first minute, second minute, and so on up until the tenth minute. We can use the formula P(A)=n/Total number of possible outcomes, where n is the number of favorable outcomes and Total number of possible outcomes is the total number of possible times he could arrive at the station.\nStep 3: For each minute, there is only one favorable outcome (Xiao Ming arriving during that minute), since he cannot arrive before the bus leaves or after it arrives. So, the probability of him arriving during the first minute is 1/1 = 1. Similarly, the probability of him arriving during the second minute is also 1/1 = 1, and so on.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019731.320126,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.83
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.85,
+            "logit_based_confidence": 0.24,
+            "internal_based_confidence": 0.83
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q71",
+    "original_question": "8. (5 min) Young$a>b>1,0<c<1$, but($)$",
+    "original_answer": "C",
+    "options": {
+      "A": "$a^{c}<b^{c}$",
+      "B": "$a b^{c}<b a^{c}$",
+      "C": "$a \\log _{b} c<b \\log _{a} c$",
+      "D": "$\\log _{a} c<\\log _{b} c$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "8. (5 min) Young$a>b>1,0<c<1$, but($)$",
+        "options": [
+          "$a^{c}<b^{c}$",
+          "$a b^{c}<b a^{c}$",
+          "$a \\log _{b} c<b \\log _{a} c$",
+          "$\\log _{a} c<\\log _{b} c$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Simplify the expression inside the parentheses first. We have $a+b+c+d=5$ and $b>a$. Therefore, we can subtract $a$ from both sides to get $b-c=d$. Now we have $d=b-c$.\nStep 2: Use the given information that $c<1$. Since $c$ is less than 1, it follows that $c+d<b+c$. Therefore, we have $d<b$.\nStep 3: Combine the two inequalities we obtained in Step 1 and Step 2. We have $d<b$ and $d=b-c$. Substituting the second inequality into the first one, we get $b-c<b$. This simplifies to $c<d$.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019737.335886,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.21,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.71
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.1,
+            "internal_based_confidence": 0.8
+          }
+        }
+      },
+      {
+        "augmented_question": "8. (5 min) Young$a>b>1,0<c<1$, but($)$",
+        "options": [
+          "$a^{c}<b^{c}$",
+          "$a b^{c}<b a^{c}$",
+          "$a \\log _{b} c<b \\log _{a} c$",
+          "$\\log _{a} c<\\log _{b} c$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Since $a>b>1$, we know that $h(a)>g(a)>f(a)$.\nStep 2: Since $c<1$, we know that there exists an $\\epsilon_0>0$ such that $|x-c|<\\epsilon_0$ implies $0<x<1$.\nStep 3: Choose $\\epsilon=\\min(\\frac{\\epsilon_0}{4},\\frac{b-a}{4})$. Then for any $x$ satisfying $|x-c|<\\epsilon$, we have:\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019750.90319,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.3,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.73
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.39,
+            "internal_based_confidence": 0.88
+          }
+        }
+      },
+      {
+        "augmented_question": "8. (5 min) Young$a>b>1,0<c<1$, but($)$",
+        "options": [
+          "$a^{c}<b^{c}$",
+          "$a b^{c}<b a^{c}$",
+          "$a \\log _{b} c<b \\log _{a} c$",
+          "$\\log _{a} c<\\log _{b} c$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Identify the given conditions: Young$a>b>1,0<c<1$.\nStep 2: Determine what needs to be proven: We need to prove that ($)$ holds true for all values of $a,b,c$ such that $a>b>1,0<c<1$.\nStep 3: Use logical reasoning to analyze the statement. We can rewrite the statement as follows:\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019758.330524,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.09,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.2,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.2,
+            "internal_based_confidence": 0.81
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q79",
+    "original_question": "5. (5 min) Young$\\tan a=\\frac{3}{4}$, then $\\cos ^{2} a+2 \\sin 2 a=(\\quad)$",
+    "original_answer": "A",
+    "options": {
+      "A": "$\\frac{64}{25}$",
+      "B": "$\\frac{48}{25}$",
+      "C": "1",
+      "D": "$\\frac{16}{25}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "5. (5 min) Young$\\tan a=\\frac{3}{4}$, then $\\cos ^{2} a+2 \\sin 2 a=(\\quad)$",
+        "options": [
+          "$\\frac{64}{25}$",
+          "$\\frac{48}{25}$",
+          "1",
+          "$\\frac{16}{25}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Use the identity $\\sin^2(a)+\\cos^2(a)=1$ to solve for $\\cos^2(a)$.\nStep 2: Use the double angle formula $\\sin(2a)=2\\sin(a)\\cos(a)$ to find $\\sin(2a)$.\nStep 3: Substitute the values found in steps 1 and 2 into the given equation.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019769.204343,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.77
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.29,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.85
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.36,
+            "internal_based_confidence": 0.83
+          }
+        }
+      },
+      {
+        "augmented_question": "5. (5 min) Young$\\tan a=\\frac{3}{4}$, then $\\cos ^{2} a+2 \\sin 2 a=(\\quad)$",
+        "options": [
+          "$\\frac{64}{25}$",
+          "$\\frac{48}{25}$",
+          "1",
+          "$\\frac{16}{25}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Use the identity $\\tan a = \\frac{\\sin a}{\\cos a}$ to write $\\sin a = \\tan a \\cdot \\cos a$.\nStep 2: Substitute the given value of $\\tan a$ into this equation to get $\\sin a = \\frac{3}{4} \\cdot \\cos a$.\nStep 3: Square both sides of this equation to get $\\sin^2 a = \\frac{9}{16} \\cdot \\cos^2 a$.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019781.4119282,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.15,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.18,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.71
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.27,
+            "internal_based_confidence": 0.85
+          }
+        }
+      },
+      {
+        "augmented_question": "5. (5 min) Young$\\tan a=\\frac{3}{4}$, then $\\cos ^{2} a+2 \\sin 2 a=(\\quad)$",
+        "options": [
+          "$\\frac{64}{25}$",
+          "$\\frac{48}{25}$",
+          "1",
+          "$\\frac{16}{25}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019797.9350011,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.11,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.8
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.39,
+            "internal_based_confidence": 0.87
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q98",
+    "original_question": "11. (5 min) Young$x=-2$It's a function$f(x)=\\left(x^{2}+a x-1\\right) e^{x-1}$The extreme point of$f(x)$The minimum value of$(\\quad)$",
+    "original_answer": "A",
+    "options": {
+      "A": "-1",
+      "B": "$-2 e^{-3}$",
+      "C": "$5 \\mathrm{e}^{-3}$",
+      "D": "1"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "11. (5 min) Young$x=-2$It's a function$f(x)=\\left(x^{2}+a x-1\\right) e^{x-1}$The extreme point of$f(x)$The minimum value of$(\\quad)$",
+        "options": [
+          "-1",
+          "$-2 e^{-3}$",
+          "$5 \\mathrm{e}^{-3}$",
+          "1"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: Find the first derivative of $f(x)$.\nStep 2: Set the first derivative equal to zero and solve for $x$.\nStep 3: Evaluate $f(x)$ at the critical points and at the endpoints of the domain.\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019814.341911,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.71
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.71
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.13,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "11. (5 min) Young$x=-2$It's a function$f(x)=\\left(x^{2}+a x-1\\right) e^{x-1}$The extreme point of$f(x)$The minimum value of$(\\quad)$",
+        "options": [
+          "-1",
+          "$-2 e^{-3}$",
+          "$5 \\mathrm{e}^{-3}$",
+          "1"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Find the derivative of$f(x)$ Step 2: Set the derivative equal to zero and solve for$x$ Step 3: Evaluate$f(-2)$ at the critical point found in step 2 Step 4: Determine whether the critical point is a local maximum or minimum by analyzing the sign of the second derivative at the critical point Step 5: Choose the correct option from the list below\nStep 2: Find the derivative of$f(x)$ Step 2: Set the derivative equal to zero and solve for$x$ Step 3: Evaluate$f(-2)$ at the critical point found in step 2 Step 4: Determine whether the critical point is a local maximum or minimum by analyzing the sign of the second derivative at the critical point Step 5: Choose the correct option from the list below\nStep 3: Find the derivative of$f(x)$ Step 2: Set the derivative equal to zero and solve for$x$ Step 3: Evaluate$f(-2)$ at the critical point found in step 2 Step 4: Determine whether the critical point is a local maximum or minimum by analyzing the sign of the second derivative at the critical point Step 5: Choose the correct option from the list below\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019817.614923,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.74
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.33,
+            "internal_based_confidence": 0.81
+          }
+        }
+      },
+      {
+        "augmented_question": "11. (5 min) Young$x=-2$It's a function$f(x)=\\left(x^{2}+a x-1\\right) e^{x-1}$The extreme point of$f(x)$The minimum value of$(\\quad)$",
+        "options": [
+          "-1",
+          "$-2 e^{-3}$",
+          "$5 \\mathrm{e}^{-3}$",
+          "1"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019838.2119691,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.12,
+              "internal_based_confidence": 0.7
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.89
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.09,
+              "internal_based_confidence": 0.75
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.85,
+            "logit_based_confidence": 0.09,
+            "internal_based_confidence": 0.85
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q101",
+    "original_question": "4. (5 points)$(\\mathrm{x}+\\mathrm{y})(2 \\mathrm{x}-\\mathrm{y})^{5}$in the expansion$x^{3} \\mathrm{y}^{3}$The coefficient is$(\\quad)$",
+    "original_answer": "C",
+    "options": {
+      "A": "-80",
+      "B": "-40",
+      "C": "40",
+      "D": "80"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "4. (5 points)$(\\mathrm{x}+\\mathrm{y})(2 \\mathrm{x}-\\mathrm{y})^{5}$in the expansion$x^{3} \\mathrm{y}^{3}$The coefficient is$(\\quad)$",
+        "options": [
+          "-80",
+          "-40",
+          "40",
+          "80"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: Expand $(x+y)(2x-y)^5$ using the distributive property. This gives us:\nStep 2: Collect like terms. We have:\nStep 3: Identify the coefficient of $x^3y^3$. The coefficient of $x^3y^3$ is $5$, which is option A.\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019847.515358,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.83
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.85
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.07,
+            "internal_based_confidence": 0.87
+          }
+        }
+      },
+      {
+        "augmented_question": "4. (5 points)$(\\mathrm{x}+\\mathrm{y})(2 \\mathrm{x}-\\mathrm{y})^{5}$in the expansion$x^{3} \\mathrm{y}^{3}$The coefficient is$(\\quad)$",
+        "options": [
+          "-80",
+          "-40",
+          "40",
+          "80"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Expand $(2x-y)^5$ using the binomial theorem.\nStep 2: Multiply the expanded form of $(2x-y)^5$ by $(x+y)$.\nStep 3: Identify the term that has the desired coefficient.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019863.712621,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.11,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.15,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.18,
+              "internal_based_confidence": 0.73
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.18,
+            "internal_based_confidence": 0.88
+          }
+        }
+      },
+      {
+        "augmented_question": "4. (5 points)$(\\mathrm{x}+\\mathrm{y})(2 \\mathrm{x}-\\mathrm{y})^{5}$in the expansion$x^{3} \\mathrm{y}^{3}$The coefficient is$(\\quad)$",
+        "options": [
+          "-80",
+          "-40",
+          "40",
+          "80"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019873.8242218,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.85
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.33,
+            "internal_based_confidence": 0.81
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q104",
+    "original_question": "9. (5 points) Arithmetic sequence$\\left\\{a_{n}\\right\\}$The first item is 1, and the tolerance is not 0.$a_{2}, a_{3}, a_{6}$In equal proportional sequence,$\\left\\{a_{n}\\right\\}$The sum of the first 6 items is$(\\quad)$",
+    "original_answer": "A",
+    "options": {
+      "A": "-24",
+      "B": "-3",
+      "C": "3",
+      "D": "8"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "9. (5 points) Arithmetic sequence$\\left\\{a_{n}\\right\\}$The first item is 1, and the tolerance is not 0.$a_{2}, a_{3}, a_{6}$In equal proportional sequence,$\\left\\{a_{n}\\right\\}$The sum of the first 6 items is$(\\quad)$",
+        "options": [
+          "-24",
+          "-3",
+          "3",
+          "8"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: Identify the given information:\nStep 2: Use the formula for the sum of an arithmetic series:\nStep 3: Substitute the given values into the formula:\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019890.5592089,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.73
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.25,
+            "internal_based_confidence": 0.87
+          }
+        }
+      },
+      {
+        "augmented_question": "9. (5 points) Arithmetic sequence$\\left\\{a_{n}\\right\\}$The first item is 1, and the tolerance is not 0.$a_{2}, a_{3}, a_{6}$In equal proportional sequence,$\\left\\{a_{n}\\right\\}$The sum of the first 6 items is$(\\quad)$",
+        "options": [
+          "-24",
+          "-3",
+          "3",
+          "8"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019911.1773171,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.35,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.83
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.23,
+            "internal_based_confidence": 0.89
+          }
+        }
+      },
+      {
+        "augmented_question": "9. (5 points) Arithmetic sequence$\\left\\{a_{n}\\right\\}$The first item is 1, and the tolerance is not 0.$a_{2}, a_{3}, a_{6}$In equal proportional sequence,$\\left\\{a_{n}\\right\\}$The sum of the first 6 items is$(\\quad)$",
+        "options": [
+          "-24",
+          "-3",
+          "3",
+          "8"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Identify what we're given.\nStep 2: Use the given information to find the next few terms of the sequence.\nStep 3: Find the sum of the first 6 terms of the sequence.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019931.7251961,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.06,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.73
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.36,
+            "internal_based_confidence": 0.82
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q114",
+    "original_question": "1. (5 points$) \\frac{1+2 i}{1-2 i}=(\\quad)$",
+    "original_answer": "D",
+    "options": {
+      "A": "$-\\frac{4}{5}-\\frac{3}{5} i$",
+      "B": "$-\\frac{4}{5}+\\frac{3}{5} i$",
+      "C": "$-\\frac{3}{5}-\\frac{4}{5} i$",
+      "D": "$-\\frac{3}{5}+\\frac{4}{5} i$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "1. (5 points$) \\frac{1+2 i}{1-2 i}=(\\quad)$",
+        "options": [
+          "$-\\frac{4}{5}-\\frac{3}{5} i$",
+          "$-\\frac{4}{5}+\\frac{3}{5} i$",
+          "$-\\frac{3}{5}-\\frac{4}{5} i$",
+          "$-\\frac{3}{5}+\\frac{4}{5} i$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Multiply the numerator and denominator by $(1+2i)$.\nStep 2: Simplify the numerator and denominator.\nStep 3: Expand the numerator and denominator.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019945.471019,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.9
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.07,
+            "internal_based_confidence": 0.82
+          }
+        }
+      },
+      {
+        "augmented_question": "1. (5 points$) \\frac{1+2 i}{1-2 i}=(\\quad)$",
+        "options": [
+          "$-\\frac{4}{5}-\\frac{3}{5} i$",
+          "$-\\frac{4}{5}+\\frac{3}{5} i$",
+          "$-\\frac{3}{5}-\\frac{4}{5} i$",
+          "$-\\frac{3}{5}+\\frac{4}{5} i$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Multiply the numerator and denominator of the complex fraction by the conjugate of the denominator.\nStep 2: Expand the product using the distributive property.\nStep 3: Simplify the expression by combining like terms.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019958.5705652,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.08,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.2,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.79
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.28,
+            "internal_based_confidence": 0.82
+          }
+        }
+      },
+      {
+        "augmented_question": "1. (5 points$) \\frac{1+2 i}{1-2 i}=(\\quad)$",
+        "options": [
+          "$-\\frac{4}{5}-\\frac{3}{5} i$",
+          "$-\\frac{4}{5}+\\frac{3}{5} i$",
+          "$-\\frac{3}{5}-\\frac{4}{5} i$",
+          "$-\\frac{3}{5}+\\frac{4}{5} i$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019963.688181,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.37,
+              "internal_based_confidence": 0.87
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.12,
+              "internal_based_confidence": 0.88
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.12,
+            "internal_based_confidence": 0.88
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q124",
+    "original_question": "4. (5 minutes) Young$\\sin a=\\frac{1}{3}$, then $\\cos 2 a=(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "$\\frac{8}{9}$",
+      "B": "$\\frac{7}{9}$",
+      "C": "$-\\frac{7}{9}$",
+      "D": "$-\\frac{8}{9}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "4. (5 minutes) Young$\\sin a=\\frac{1}{3}$, then $\\cos 2 a=(\\quad)$",
+        "options": [
+          "$\\frac{8}{9}$",
+          "$\\frac{7}{9}$",
+          "$-\\frac{7}{9}$",
+          "$-\\frac{8}{9}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We can start by squaring both sides of the equation we have for $\\sin a$, which gives us $\\sin^2 a = \\frac{1}{9}$. Then, we can take the square root of both sides to get $\\sin a = \\pm \\frac{1}{3}$.\nStep 2: Since we want to find $\\cos 2a$, we need to consider two cases: when $\\sin a = \\frac{1}{3}$ and when $\\sin a = -\\frac{1}{3}$. In the first case, we can use the Pythagorean identity to find $\\cos a = \\sqrt{1-\\sin^2 a} = \\sqrt{1-\\frac{1}{9}} = \\frac{\\sqrt{8}}{3}$. In the second case, we can again use the Pythagorean identity to find $\\cos a = \\sqrt{1-\\sin^2 a} = \\sqrt{1+\\frac{1}{9}} = \\frac{\\sqrt{10}}{3}$.\nStep 3: Now we can use the double-angle formula for cosine to find $\\cos 2a = 2\\cos^2 a - 1$. Plugging in our values for $\\cos a$, we get $\\cos 2a = 2(\\frac{\\sqrt{8}}{3})^2 - 1 = \\frac{16}{9} - 1 = \\frac{7}{9}$.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019975.306506,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.08,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.05,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.11,
+              "internal_based_confidence": 0.87
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.11,
+            "internal_based_confidence": 0.84
+          }
+        }
+      },
+      {
+        "augmented_question": "4. (5 minutes) Young$\\sin a=\\frac{1}{3}$, then $\\cos 2 a=(\\quad)$",
+        "options": [
+          "$\\frac{8}{9}$",
+          "$\\frac{7}{9}$",
+          "$-\\frac{7}{9}$",
+          "$-\\frac{8}{9}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We can use the Pythagorean identity to find the value of $\\cos \\alpha$ if we know $\\sin \\alpha$. In this case, we have $\\sin^2 a + \\cos^2 a = 1$, so $\\cos^2 a = 1 - \\sin^2 a = 1 - \\left(\\frac{1}{3}\\right)^2 = \\frac{8}{9}$.\nStep 2: Since $\\cos^2 a = \\frac{8}{9}$, we can take the square root of both sides to get $\\cos a = \\pm \\sqrt{\\frac{8}{9}}$. However, since $\\sin a > 0$, we know that $\\cos a$ must be positive, so $\\cos a = \\sqrt{\\frac{8}{9}}$.\nStep 3: Now that we know $\\cos a$, we can find $\\cos 2a$ using the double angle identity $\\cos 2a = 2 \\cos^2 a - 1$. Plugging in our value for $\\cos a$, we get $\\cos 2a = 2 \\cdot \\left(\\sqrt{\\frac{8}{9}}\\right)^2 - 1 = \\frac{16}{9} - 1 = \\boxed{\\frac{7}{9}}$.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019985.199264,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.26,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.18,
+              "internal_based_confidence": 0.84
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.18,
+            "internal_based_confidence": 0.84
+          }
+        }
+      },
+      {
+        "augmented_question": "4. (5 minutes) Young$\\sin a=\\frac{1}{3}$, then $\\cos 2 a=(\\quad)$",
+        "options": [
+          "$\\frac{8}{9}$",
+          "$\\frac{7}{9}$",
+          "$-\\frac{7}{9}$",
+          "$-\\frac{8}{9}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Substitute $a$ into the expression for $\\sin a$. We have that $sin(a) = \\frac{1}{3}$.\nStep 2: Square both sides of the equation to get $sin^2(a) = \\frac{1}{9}$\nStep 3: Substitute $sin^2(a)$ back into the expression for $\\cos(2a)$ to get $\\cos(2a) = 1 - 2 * (\\frac{1}{9}) = \\frac{7}{9}$.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019989.7998981,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.88
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.17,
+            "internal_based_confidence": 0.84
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q127",
+    "original_question": "8. (5 points) The probability of using mobile payment for each member in a group is$\\mathrm{p}$, the payment methods of each member are independent of each other.$\\mathrm{X}$The number of people using mobile payments for the 10 members of this group,$D X=2.4, P$$(x=4)<P(X=6)$, then $p=(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "0.7",
+      "B": "0.6",
+      "C": "0.4",
+      "D": "0.3"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "8. (5 points) The probability of using mobile payment for each member in a group is$\\mathrm{p}$, the payment methods of each member are independent of each other.$\\mathrm{X}$The number of people using mobile payments for the 10 members of this group,$D X=2.4, P$$(x=4)<P(X=6)$, then $p=(\\quad)$",
+        "options": [
+          "0.7",
+          "0.6",
+          "0.4",
+          "0.3"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Identify the random variable and its values. In this case, the random variable is X, which represents the number of people using mobile payments among the 10 members of the group. The possible values of X are 0, 1, 2, ..., 10.\nStep 2: Calculate the mean and variance of the binomial distribution. The mean of the binomial distribution is given by np, where n is the number of trials (in this case, 10) and p is the probability of success (in this case, p). The variance of the binomial distribution is given by np(1-p).\nStep 3: Use the information provided in the problem to set up an equation and solve for p. We know that P(x=4) < P(X=6), so we can write the inequality as follows:\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745019999.123596,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.37,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.2,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.2,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "8. (5 points) The probability of using mobile payment for each member in a group is$\\mathrm{p}$, the payment methods of each member are independent of each other.$\\mathrm{X}$The number of people using mobile payments for the 10 members of this group,$D X=2.4, P$$(x=4)<P(X=6)$, then $p=(\\quad)$",
+        "options": [
+          "0.7",
+          "0.6",
+          "0.4",
+          "0.3"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We know that the probability of using mobile payment for each member in the group is $p$. This means that the probability of a member using mobile payment is $p$.\nStep 2: We also know that the payment methods of each member are independent of each other. This means that if one member uses mobile payment, it does not affect the probability that another member will use mobile payment.\nStep 3: We want to find the value of $p$. We can do this by using Bayes' theorem, which relates the probabilities of two events given their joint probability. In this case, we want to find the probability of using mobile payment given that there are four or six members who use mobile payment.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020015.8260128,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.88
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.07,
+            "internal_based_confidence": 0.81
+          }
+        }
+      },
+      {
+        "augmented_question": "8. (5 points) The probability of using mobile payment for each member in a group is$\\mathrm{p}$, the payment methods of each member are independent of each other.$\\mathrm{X}$The number of people using mobile payments for the 10 members of this group,$D X=2.4, P$$(x=4)<P(X=6)$, then $p=(\\quad)$",
+        "options": [
+          "0.7",
+          "0.6",
+          "0.4",
+          "0.3"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Find the complement of the event where exactly $6$ people use mobile payments.\nStep 2: Calculate $P(X=5)$.\nStep 3: Calculate $P(X=4)$.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020032.405129,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.79
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.12,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.87
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.36,
+            "internal_based_confidence": 0.87
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q150",
+    "original_question": "5. Equal ratio sequences with all terms known to be positive$\\left\\{a_{n}\\right\\}$The sum of the first 4 items is 15, and$a_{5}=3 a_{3}+4 a_{1}$, then $a_{3}=(\\quad)$",
+    "original_answer": "C",
+    "options": {
+      "A": "16",
+      "B": "8",
+      "C": "4",
+      "D": "2"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "5. Equal ratio sequences with all terms known to be positive$\\left\\{a_{n}\\right\\}$The sum of the first 4 items is 15, and$a_{5}=3 a_{3}+4 a_{1}$, then $a_{3}=(\\quad)$",
+        "options": [
+          "16",
+          "8",
+          "4",
+          "2"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020049.197245,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.15,
+              "internal_based_confidence": 0.71
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.84
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.32,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "5. Equal ratio sequences with all terms known to be positive$\\left\\{a_{n}\\right\\}$The sum of the first 4 items is 15, and$a_{5}=3 a_{3}+4 a_{1}$, then $a_{3}=(\\quad)$",
+        "options": [
+          "16",
+          "8",
+          "4",
+          "2"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Understand the given information.\nStep 2: Use the given information to find $a_{3}$.\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020065.955849,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.14,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.79
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.3,
+              "internal_based_confidence": 0.82
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.3,
+            "internal_based_confidence": 0.88
+          }
+        }
+      },
+      {
+        "augmented_question": "5. Equal ratio sequences with all terms known to be positive$\\left\\{a_{n}\\right\\}$The sum of the first 4 items is 15, and$a_{5}=3 a_{3}+4 a_{1}$, then $a_{3}=(\\quad)$",
+        "options": [
+          "16",
+          "8",
+          "4",
+          "2"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020076.411155,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.77
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.75
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.23,
+            "internal_based_confidence": 0.83
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q153",
+    "original_question": "11. Set$f(x)$is defined as$R$Even function, and$(0,+\\infty)$monotonically decreasing,$(\\quad)$",
+    "original_answer": "C",
+    "options": {
+      "A": "$f\\left(\\log _{5} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)$",
+      "B": "$f\\left(\\log _{8} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)$",
+      "C": "$f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$",
+      "D": "$f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "11. Set$f(x)$is defined as$R$Even function, and$(0,+\\infty)$monotonically decreasing,$(\\quad)$",
+        "options": [
+          "$f\\left(\\log _{5} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)$",
+          "$f\\left(\\log _{8} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)$",
+          "$f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$",
+          "$f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We know that $f(x)$ is an even function, so $f(-x) = f(x)$ for all $x$.\nStep 2: We also know that $f(x)$ is monotonically decreasing on $(0,+\\infty)$, so $f(x_1) \\leq f(x_2)$ for all $x_1 \\leq x_2$.\nStep 3: Since $f(x)$ is both even and monotonically decreasing, we can conclude that it must be a constant function. Therefore, the answer is (D).\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020082.8776362,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.09,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.85
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.39,
+            "internal_based_confidence": 0.83
+          }
+        }
+      },
+      {
+        "augmented_question": "11. Set$f(x)$is defined as$R$Even function, and$(0,+\\infty)$monotonically decreasing,$(\\quad)$",
+        "options": [
+          "$f\\left(\\log _{5} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)$",
+          "$f\\left(\\log _{8} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)$",
+          "$f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$",
+          "$f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Check if $f(-x) = -f(x)$ for all $x \\in R$. Since $f(x)$ is defined as an even function, we know that $f(-x) = f(x)$ for all $x \\in R$. Therefore, $f(-x) \\neq -f(x)$ for all $x \\in R$, which means that $f(x)$ is not an odd function.\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020088.7027452,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.77
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.72
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.07,
+            "internal_based_confidence": 0.83
+          }
+        }
+      },
+      {
+        "augmented_question": "11. Set$f(x)$is defined as$R$Even function, and$(0,+\\infty)$monotonically decreasing,$(\\quad)$",
+        "options": [
+          "$f\\left(\\log _{5} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)$",
+          "$f\\left(\\log _{8} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)$",
+          "$f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$",
+          "$f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Since $f(x)$ is defined as an even function, we know that $f(-x) = f(x)$ for all $x \\in \\mathbb{R}$. This means that the graph of $f(x)$ is symmetrical about the origin.\nStep 2: We are given that $(0,+\\infty)$ is the interval on which $f(x)$ is monotonically decreasing. This means that for any two points $x_1$ and $x_2$ in $(0,+\\infty)$, if $x_1 < x_2$, then $f(x_1) > f(x_2)$.\nStep 3: We need to use these facts to determine the behavior of $f(x)$ at the endpoints of the interval $(0,+\\infty)$, specifically at $x=0$ and $x=\\infty$.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020103.758533,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.12,
+              "internal_based_confidence": 0.84
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.12,
+            "internal_based_confidence": 0.83
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q156",
+    "original_question": "2. Plural$\\frac{1}{1-3 i}$The imaginary part is$(\\quad)$",
+    "original_answer": "D",
+    "options": {
+      "A": "$-\\frac{3}{10}$",
+      "B": "$-\\frac{1}{10}$",
+      "C": "$\\frac{1}{10}$",
+      "D": "$\\frac{3}{10}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "2. Plural$\\frac{1}{1-3 i}$The imaginary part is$(\\quad)$",
+        "options": [
+          "$-\\frac{3}{10}$",
+          "$-\\frac{1}{10}$",
+          "$\\frac{1}{10}$",
+          "$\\frac{3}{10}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020109.5056782,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.16,
+              "internal_based_confidence": 0.87
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.16,
+            "internal_based_confidence": 0.85
+          }
+        }
+      },
+      {
+        "augmented_question": "2. Plural$\\frac{1}{1-3 i}$The imaginary part is$(\\quad)$",
+        "options": [
+          "$-\\frac{3}{10}$",
+          "$-\\frac{1}{10}$",
+          "$\\frac{1}{10}$",
+          "$\\frac{3}{10}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Multiply both sides of the equation by $(1+3i)^{-1}$. We get $\\frac{(1+3i)(1-3i)}{(1+3i)(1-3i)} = \\frac{1-3i}{(1+3i)(1-3i)}(1+3i)^{-1}$\nStep 2: Multiply both sides of the equation by $(1+3i)^{-1}$. We get $\\frac{(1+3i)(1-3i)}{(1+3i)(1-3i)} = \\frac{1-3i}{(1+3i)(1-3i)}(1+3i)^{-1}$\nStep 3: Multiply both sides of the equation by $(1+3i)^{-1}$. We get $\\frac{(1+3i)(1-3i)}{(1+3i)(1-3i)} = \\frac{1-3i}{(1+3\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020126.101366,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.05,
+              "internal_based_confidence": 0.77
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.4,
+              "internal_based_confidence": 0.79
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.87,
+            "logit_based_confidence": 0.4,
+            "internal_based_confidence": 0.88
+          }
+        }
+      },
+      {
+        "augmented_question": "2. Plural$\\frac{1}{1-3 i}$The imaginary part is$(\\quad)$",
+        "options": [
+          "$-\\frac{3}{10}$",
+          "$-\\frac{1}{10}$",
+          "$\\frac{1}{10}$",
+          "$\\frac{3}{10}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Simplify the complex number inside the parentheses by multiplying the numerator and denominator by their conjugate. This will result in $\\frac{2(1+3i)}{(1-3i)(1+3i)}$.\nStep 2: Multiply the numerator and denominator by $(1+3i)$ to get rid of the complex conjugates. This gives us $\\frac{2(1+3i)+6(-1-3i)}{(1-3i)(1+3i)}$.\nStep 3: Expand the numerator and simplify. This gives us $\\frac{2+6i-6-18i}{10} = \\frac{-4-12i}{10}$.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020133.063034,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.71
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.74
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.13,
+            "internal_based_confidence": 0.87
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q161",
+    "original_question": "7. In$\\triangle A B C$middle,$\\cos C=\\frac{2}{3}, A C=4, B C=3$, then $\\cos B=(\\quad)$",
+    "original_answer": "A",
+    "options": {
+      "A": "$\\frac{1}{9}$",
+      "B": "$\\frac{1}{3}$",
+      "C": "$\\frac{1}{2}$",
+      "D": "$\\frac{2}{3}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "7. In$\\triangle A B C$middle,$\\cos C=\\frac{2}{3}, A C=4, B C=3$, then $\\cos B=(\\quad)$",
+        "options": [
+          "$\\frac{1}{9}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We can use the Law of Cosines to find the value of $\\cos B$. The Law of Cosines states that for any triangle $ABC$, where $a$, $b$, and $c$ are the lengths of its sides opposite to angles $A$, $B$, and $C$, respectively, we have:\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020143.607031,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.14,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.21,
+              "internal_based_confidence": 0.84
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.21,
+            "internal_based_confidence": 0.89
+          }
+        }
+      },
+      {
+        "augmented_question": "7. In$\\triangle A B C$middle,$\\cos C=\\frac{2}{3}, A C=4, B C=3$, then $\\cos B=(\\quad)$",
+        "options": [
+          "$\\frac{1}{9}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Using the Law of Cosines, we have: $9 = 16 + 9 - 2 \\cdot 4 \\cdot \\frac{2}{3}$ Step 2: Simplifying, we get: $9 = 35 - 16$ Step 3: Subtracting 16 from both sides, we get: $-26 = -16$ This is not true, so there must be an error in the problem statement or our calculation. We cannot determine the value of $\\cos B$ using the given information.\nStep 2: Using the Law of Cosines, we have: $9 = 16 + 9 - 2 \\cdot 4 \\cdot \\frac{2}{3}$ Step 2: Simplifying, we get: $9 = 35 - 16$ Step 3: Subtracting 16 from both sides, we get: $-26 = -16$ This is not true, so there must be an error in the problem statement or our calculation. We cannot determine the value of $\\cos B$ using the given information.\nStep 3: Using the Law of Cosines, we have: $9 = 16 + 9 - 2 \\cdot 4 \\cdot \\frac{2}{3}$ Step 2: Simplifying, we get: $9 = 35 - 16$ Step 3: Subtracting 16 from both sides, we get: $-26 = -16$ This is not true, so there must be an error in the problem statement or our calculation. We cannot determine the value of $\\cos B$ using the given information.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020149.85319,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.11,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.77
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.22,
+            "internal_based_confidence": 0.83
+          }
+        }
+      },
+      {
+        "augmented_question": "7. In$\\triangle A B C$middle,$\\cos C=\\frac{2}{3}, A C=4, B C=3$, then $\\cos B=(\\quad)$",
+        "options": [
+          "$\\frac{1}{9}$",
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020159.890028,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.06,
+              "internal_based_confidence": 0.71
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.05,
+              "internal_based_confidence": 0.88
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.05,
+            "internal_based_confidence": 0.84
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q176",
+    "original_question": "3. During the COVID-19 epidemic prevention and control period, a supermarket opened an online sales business and could complete the delivery of 1,200 orders per day. Due to the sharp increase in order volume, the order backlog was caused. In order to solve the difficulties, many volunteers enthusiastically signed up to participate in the delivery work. It is known that the supermarket had a backlog of 500 orders on a certain day. It is estimated that the probability of more than 1,600 new orders on the next day is 0.05. Each volunteer can complete the delivery of 50 orders per day. In order to ensure that the probability of completing the backlog order and the delivery of the same day is no less than 0.95, at least a volunteer is required ()",
+    "original_answer": "B",
+    "options": {
+      "A": "10",
+      "B": "18",
+      "C": "24",
+      "D": "32"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "3. During the COVID-19 epidemic prevention and control period, a supermarket opened an online sales business and could complete the delivery of 1,200 orders per day. Due to the sharp increase in order volume, the order backlog was caused. In order to solve the difficulties, many volunteers enthusiastically signed up to participate in the delivery work. It is known that the supermarket had a backlog of 500 orders on a certain day. It is estimated that the probability of more than 1,600 new orders on the next day is 0.05. Each volunteer can complete the delivery of 50 orders per day. In order to ensure that the probability of completing the backlog order and the delivery of the same day is no less than 0.95, at least a volunteer is required ()",
+        "options": [
+          "10",
+          "18",
+          "24",
+          "32"
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: Calculate the total number of orders that need to be delivered per day.\nStep 2: Calculate the number of volunteers needed to deliver all the orders.\nStep 3: (missing)\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020167.806389,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.2,
+              "internal_based_confidence": 0.89
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.29,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.06,
+              "internal_based_confidence": 0.84
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.06,
+            "internal_based_confidence": 0.87
+          }
+        }
+      },
+      {
+        "augmented_question": "3. During the COVID-19 epidemic prevention and control period, a supermarket opened an online sales business and could complete the delivery of 1,200 orders per day. Due to the sharp increase in order volume, the order backlog was caused. In order to solve the difficulties, many volunteers enthusiastically signed up to participate in the delivery work. It is known that the supermarket had a backlog of 500 orders on a certain day. It is estimated that the probability of more than 1,600 new orders on the next day is 0.05. Each volunteer can complete the delivery of 50 orders per day. In order to ensure that the probability of completing the backlog order and the delivery of the same day is no less than 0.95, at least a volunteer is required ()",
+        "options": [
+          "10",
+          "18",
+          "24",
+          "32"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Calculate the total number of orders that need to be delivered on the next day.\nStep 2: Calculate the number of volunteers needed to deliver all the orders.\nStep 3: Determine the minimum number of volunteers required.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020175.539903,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.82
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.89
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.38,
+            "internal_based_confidence": 0.85
+          }
+        }
+      },
+      {
+        "augmented_question": "3. During the COVID-19 epidemic prevention and control period, a supermarket opened an online sales business and could complete the delivery of 1,200 orders per day. Due to the sharp increase in order volume, the order backlog was caused. In order to solve the difficulties, many volunteers enthusiastically signed up to participate in the delivery work. It is known that the supermarket had a backlog of 500 orders on a certain day. It is estimated that the probability of more than 1,600 new orders on the next day is 0.05. Each volunteer can complete the delivery of 50 orders per day. In order to ensure that the probability of completing the backlog order and the delivery of the same day is no less than 0.95, at least a volunteer is required ()",
+        "options": [
+          "10",
+          "18",
+          "24",
+          "32"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Calculate the total number of orders per day:\nStep 2: Calculate the maximum possible number of orders per day (if all\u5fd7\u613f\u8005 work):\nStep 3: Determine the minimum number of volunteers needed:\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020187.834792,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.09,
+              "internal_based_confidence": 0.74
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.09,
+            "internal_based_confidence": 0.84
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q185",
+    "original_question": "3. Given$(1-i)^{2} z=3+2 i$, then $z=(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "$-1-\\frac{3}{2} i$",
+      "B": "$-1+\\frac{3}{2} i$",
+      "C": "$-\\frac{3}{2}+i$",
+      "D": "$-\\frac{3}{2}-i$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "3. Given$(1-i)^{2} z=3+2 i$, then $z=(\\quad)$",
+        "options": [
+          "$-1-\\frac{3}{2} i$",
+          "$-1+\\frac{3}{2} i$",
+          "$-\\frac{3}{2}+i$",
+          "$-\\frac{3}{2}-i$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Expand $(1 - i)^2$ using the distributive property. We get $1^2 - 2i + (-i)^2 = 1 - 2i - 1 = -2i$.\nStep 2: Equate the real part of both sides of the equation to get $-2i = 3$. This gives us $i = -3/2$.\nStep 3: Substitute $i = -3/2$ into the equation to get $(-3/2)^2 z = 3 + 2i$. Simplifying the left side gives us $9/4 z = 3 + 2i$. Dividing both sides by $9/4$ gives us $z = 4/3 + 8i/9$.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020195.325073,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.19,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.77
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.38,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "3. Given$(1-i)^{2} z=3+2 i$, then $z=(\\quad)$",
+        "options": [
+          "$-1-\\frac{3}{2} i$",
+          "$-1+\\frac{3}{2} i$",
+          "$-\\frac{3}{2}+i$",
+          "$-\\frac{3}{2}-i$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Expand $(1-i)^{2}$ using the distributive property.\nStep 2: Multiply both sides by the complex conjugate of $-2 i$, which is $2 i$.\nStep 3: Simplify the right-hand side.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020201.72311,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.18,
+              "internal_based_confidence": 0.79
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.74
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.38,
+            "internal_based_confidence": 0.89
+          }
+        }
+      },
+      {
+        "augmented_question": "3. Given$(1-i)^{2} z=3+2 i$, then $z=(\\quad)$",
+        "options": [
+          "$-1-\\frac{3}{2} i$",
+          "$-1+\\frac{3}{2} i$",
+          "$-\\frac{3}{2}+i$",
+          "$-\\frac{3}{2}-i$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: (missing)\nStep 2: (missing)\nStep 3: (missing)\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020208.7725928,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.07,
+              "internal_based_confidence": 0.77
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.73
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.28,
+            "internal_based_confidence": 0.85
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q197",
+    "original_question": "6. Assign 5 volunteers to figure skating, short track speed skating, ice hockey and ice display for training. Each volunteer is only assigned to 1 project, and at least 1 volunteer is assigned to each project. There will be a total of different allocation plans ()",
+    "original_answer": "C",
+    "options": {
+      "A": "60 kinds",
+      "B": "120 kinds",
+      "C": "240 kinds",
+      "D": "480 kinds"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "6. Assign 5 volunteers to figure skating, short track speed skating, ice hockey and ice display for training. Each volunteer is only assigned to 1 project, and at least 1 volunteer is assigned to each project. There will be a total of different allocation plans ()",
+        "options": [
+          "60 kinds",
+          "120 kinds",
+          "240 kinds",
+          "480 kinds"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Determine the number of possible ways to assign the volunteers to the projects.\nStep 2: Calculate the number of ways to assign the volunteers to each project.\nStep 3: Multiply the number of ways to assign the volunteers to each project by the number of possible ways to assign the volunteers to all projects to get the total number of possible allocation plans:\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020216.9265332,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.13,
+              "internal_based_confidence": 0.87
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.13,
+            "internal_based_confidence": 0.81
+          }
+        }
+      },
+      {
+        "augmented_question": "6. Assign 5 volunteers to figure skating, short track speed skating, ice hockey and ice display for training. Each volunteer is only assigned to 1 project, and at least 1 volunteer is assigned to each project. There will be a total of different allocation plans ()",
+        "options": [
+          "60 kinds",
+          "120 kinds",
+          "240 kinds",
+          "480 kinds"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: Identify the number of projects and the number of volunteers.\nStep 2: Determine the minimum number of volunteers required for each project.\nStep 3: Consider the possible allocation plans.\nAnswer: A",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020223.8676631,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.08,
+              "internal_based_confidence": 0.89
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.08,
+            "internal_based_confidence": 0.82
+          }
+        }
+      },
+      {
+        "augmented_question": "6. Assign 5 volunteers to figure skating, short track speed skating, ice hockey and ice display for training. Each volunteer is only assigned to 1 project, and at least 1 volunteer is assigned to each project. There will be a total of different allocation plans ()",
+        "options": [
+          "60 kinds",
+          "120 kinds",
+          "240 kinds",
+          "480 kinds"
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: Find the number of ways to choose 5 volunteers out of 10 available.\nStep 2: For each combination, we assign one volunteer to each of the four projects.\nStep 3: Subtract the number of plans where all five volunteers are assigned to the same project.\nAnswer: T",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020232.7540631,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.77
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.74
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.0,
+            "internal_based_confidence": 0.89
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q207",
+    "original_question": "9. Given ball$O$The radius is 1, and the vertex of the four-ringed pheasant is$O$, all four vertices on the bottom are on the ball$O$On the spherical surface, when the volume of the four-ringed pheasant is the largest, its height is ()",
+    "original_answer": "C",
+    "options": {
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{1}{2}$",
+      "C": "$\\frac{\\sqrt{3}}{3}$",
+      "D": "$\\frac{\\sqrt{2}}{2}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "9. Given ball$O$The radius is 1, and the vertex of the four-ringed pheasant is$O$, all four vertices on the bottom are on the ball$O$On the spherical surface, when the volume of the four-ringed pheasant is the largest, its height is ()",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{\\sqrt{3}}{3}$",
+          "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Define the function to maximize\nStep 2: Set up the constraint\nStep 3: Apply Lagrange multipliers\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020249.0145679,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.26,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.1,
+              "internal_based_confidence": 0.82
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.86
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.91,
+            "logit_based_confidence": 0.31,
+            "internal_based_confidence": 0.86
+          }
+        }
+      },
+      {
+        "augmented_question": "9. Given ball$O$The radius is 1, and the vertex of the four-ringed pheasant is$O$, all four vertices on the bottom are on the ball$O$On the spherical surface, when the volume of the four-ringed pheasant is the largest, its height is ()",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{\\sqrt{3}}{3}$",
+          "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Determine the shape of the four-ringed pheasant.\nStep 2: Calculate the volume of the four-ringed pheasant.\nStep 3: Find the maximum volume of the four-ringed pheasant.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020263.928517,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.37,
+              "internal_based_confidence": 0.87
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.14,
+              "internal_based_confidence": 0.81
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.37,
+              "internal_based_confidence": 0.78
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.37,
+            "internal_based_confidence": 0.8
+          }
+        }
+      },
+      {
+        "augmented_question": "9. Given ball$O$The radius is 1, and the vertex of the four-ringed pheasant is$O$, all four vertices on the bottom are on the ball$O$On the spherical surface, when the volume of the four-ringed pheasant is the largest, its height is ()",
+        "options": [
+          "$\\frac{1}{3}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{\\sqrt{3}}{3}$",
+          "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Find the expression for the height h of the pheasant, given that it is a cone with base radius r and height h. Since the pheasant has four rings, we can assume that each ring has a thickness of d, such that the total height of the pheasant is h = 4d + r.\nStep 2: Substitute the expression for h into the volume equation to get an expression for the volume of the pheasant. We have V = 4/3 * pi * r^3, so V = 4/3 * pi * r^3 * (1 - 4d/r)^4.\nStep 3: Differentiate the expression for V with respect to d to maximize the volume. To do this, we take the derivative of the expression for V with respect to d using the chain rule and setting it equal to zero. We get dV/dd = -4/3 * pi * r^3 * (4d/r)^3 * (-r/(4d)) = 0. Solving for d gives us d = 2r/5.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020280.600356,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.34,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.79
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.09,
+              "internal_based_confidence": 0.87
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.09,
+            "internal_based_confidence": 0.84
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q208",
+    "original_question": "10. A chess player plays one game with three chess players A, B and C, and the results of each game are independent of each other. It is known that the probability of winning the game between the player and A, B and C are respectively$p_{1}, p_{2}, p_{3}$, and$p_{3}>p_{2}>p_{1}>0$. The probability of the player winning two sets in a row is$p$, but ()",
+    "original_answer": "D",
+    "options": {
+      "A": "$p$Has nothing to do with the order of the game between the player and A, B and C",
+      "B": "The player plays against A in the second set,$p$maximum",
+      "C": "The player plays against B in the second set,$p$maximum",
+      "D": "The player plays against C in the second set,$p$maximum"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "10. A chess player plays one game with three chess players A, B and C, and the results of each game are independent of each other. It is known that the probability of winning the game between the player and A, B and C are respectively$p_{1}, p_{2}, p_{3}$, and$p_{3}>p_{2}>p_{1}>0$. The probability of the player winning two sets in a row is$p$, but ()",
+        "options": [
+          "$p$Has nothing to do with the order of the game between the player and A, B and C",
+          "The player plays against A in the second set,$p$maximum",
+          "The player plays against B in the second set,$p$maximum",
+          "The player plays against C in the second set,$p$maximum"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We know that the probability of winning the game against each player is $p_1, p_2, p_3$ respectively.\nStep 2: Since the games are independent, we can multiply the probabilities together to find the probability of winning two games in a row. This gives us $p_1p_2 + p_1p_3 + p_2p_3$.\nStep 3: However, we also know that the probability of winning two sets in a row is $p$. Therefore, we can subtract this from the total probability of winning two games in a row to find the probability of losing at least one set in a row. This gives us $p - p_1p_2 - p_1p_3 - p_2p_3$.\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020287.23908,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.18,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.16,
+              "internal_based_confidence": 0.8
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.16,
+            "internal_based_confidence": 0.88
+          }
+        }
+      },
+      {
+        "augmented_question": "10. A chess player plays one game with three chess players A, B and C, and the results of each game are independent of each other. It is known that the probability of winning the game between the player and A, B and C are respectively$p_{1}, p_{2}, p_{3}$, and$p_{3}>p_{2}>p_{1}>0$. The probability of the player winning two sets in a row is$p$, but ()",
+        "options": [
+          "$p$Has nothing to do with the order of the game between the player and A, B and C",
+          "The player plays against A in the second set,$p$maximum",
+          "The player plays against B in the second set,$p$maximum",
+          "The player plays against C in the second set,$p$maximum"
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: We need to find the probability of the player winning two games in a row.\nStep 2: Since the games are independent, we can multiply the probabilities of winning each game to get the probability of winning two games in a row.\nStep 3: The probability of winning two games in a row is $p \\cdot p = p^2$.\nAnswer: C",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020290.325952,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.21,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.15,
+              "internal_based_confidence": 0.75
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.15,
+            "internal_based_confidence": 0.84
+          }
+        }
+      },
+      {
+        "augmented_question": "10. A chess player plays one game with three chess players A, B and C, and the results of each game are independent of each other. It is known that the probability of winning the game between the player and A, B and C are respectively$p_{1}, p_{2}, p_{3}$, and$p_{3}>p_{2}>p_{1}>0$. The probability of the player winning two sets in a row is$p$, but ()",
+        "options": [
+          "$p$Has nothing to do with the order of the game between the player and A, B and C",
+          "The player plays against A in the second set,$p$maximum",
+          "The player plays against B in the second set,$p$maximum",
+          "The player plays against C in the second set,$p$maximum"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: Let's define our events as follows:\nStep 2: Using Bayes' theorem, we can calculate the probability of losing against A given that the player has won two games by multiplying the probability of winning both games against A together with the probability of losing against A. This gives us:\nStep 3: Similarly, we can calculate the probability of losing against B given that the player has won two games by multiplying the probability of winning both games against B together with the probability of losing against B. This gives us:\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020306.899055,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.29,
+              "internal_based_confidence": 0.83
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.29,
+              "internal_based_confidence": 0.89
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.06,
+              "internal_based_confidence": 0.79
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.06,
+            "internal_based_confidence": 0.82
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "Q209",
+    "original_question": "12. Given functions$f(x), g(x)$The domains of$\\mathbf{R}$, and$f(x)+g(2-x)=5, g(x)-f(x-4)=7$. like$y=g(x)$Image about straight lines$x=2$symmetry,$g(2)=4$, then $\\sum_{k=1}^{22} f(k)=()$",
+    "original_answer": "D",
+    "options": {
+      "A": "-21",
+      "B": "-22",
+      "C": "-23",
+      "D": "-24"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "12. Given functions$f(x), g(x)$The domains of$\\mathbf{R}$, and$f(x)+g(2-x)=5, g(x)-f(x-4)=7$. like$y=g(x)$Image about straight lines$x=2$symmetry,$g(2)=4$, then $\\sum_{k=1}^{22} f(k)=()$",
+        "options": [
+          "-21",
+          "-22",
+          "-23",
+          "-24"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We can start by finding the values of $f(x)$ and $g(x)$ from the given equations.\nStep 2: Now that we know the values of $f(x)$ and $g(x)$ for all $x \\in \\mathbb{R}$, we can find the sum of the first 22 terms of the sequence defined by $f(k)$.\nStep 3: Therefore, the answer is (C).\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020316.767066,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.18,
+              "internal_based_confidence": 0.89
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.17,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.35,
+              "internal_based_confidence": 0.77
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.35,
+            "internal_based_confidence": 0.82
+          }
+        }
+      },
+      {
+        "augmented_question": "12. Given functions$f(x), g(x)$The domains of$\\mathbf{R}$, and$f(x)+g(2-x)=5, g(x)-f(x-4)=7$. like$y=g(x)$Image about straight lines$x=2$symmetry,$g(2)=4$, then $\\sum_{k=1}^{22} f(k)=()$",
+        "options": [
+          "-21",
+          "-22",
+          "-23",
+          "-24"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We can rewrite the given equations as $f(x) + g(x - 2) = 5$ and $g(x) - f(x - 4) = 7$.\nStep 2: Let's solve for $f(x)$ from the first equation:\nStep 3: Now let's use the information about the symmetry of $g(x)$ at $x = 2$ to find an expression for $g(x)$. Since $g(2) = 4$, we have:\nAnswer: D",
+        "metadata": {
+          "temperature": 0.7,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020331.6276429,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.79
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.21,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.11,
+              "internal_based_confidence": 0.84
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.11,
+            "internal_based_confidence": 0.8
+          }
+        }
+      },
+      {
+        "augmented_question": "12. Given functions$f(x), g(x)$The domains of$\\mathbf{R}$, and$f(x)+g(2-x)=5, g(x)-f(x-4)=7$. like$y=g(x)$Image about straight lines$x=2$symmetry,$g(2)=4$, then $\\sum_{k=1}^{22} f(k)=()$",
+        "options": [
+          "-21",
+          "-22",
+          "-23",
+          "-24"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: We can use the given information to write equations for $f(x)$ and $g(x)$. For example, we know that $f(x)+g(2-x)=5$, so we can substitute in $x=2$ to get $f(2)+g(0)=5$. This tells us that $f(2)=5-g(0)$.\nStep 2: Similarly, we can use the equation $g(x)-f(x-4)=7$ to find another equation for $f(x)$. Substituting $x=2$ gives $g(2)-f(-2)=7$, which means that $f(-2)=g(2)-7$.\nStep 3: Since $g(2)=4$, we can use the fact that $f(2)=5-g(0)$ to find $g(0)$. Plugging in $x=2$ into the equation $g(x)-f(x-4)=7$ gives $g(2)-f(-2)=7$, so $g(2)-4-f(-2)=7$. Therefore, $g(0)=1-f(-2)$.\nAnswer: D",
+        "metadata": {
+          "temperature": 1.0,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745020348.187419,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.7
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.94,
+              "logit_based_confidence": 0.16,
+              "internal_based_confidence": 0.76
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.3,
+              "internal_based_confidence": 0.87
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.87,
+            "logit_based_confidence": 0.3,
+            "internal_based_confidence": 0.81
+          }
+        }
+      }
+    ]
+  }
+]
