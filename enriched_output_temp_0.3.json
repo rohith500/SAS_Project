@@ -1,0 +1,3573 @@
+[
+  {
+    "id": "Q1",
+    "original_question": "1. (5 points) Given the set $A=\\{x \\in R|| x \\mid \\leqslant 2\\}\\}, B=\\{x \\in Z \\mid \\sqrt{x} \\leqslant 4\\}$, then $A \\cap B=(\\quad$\uff09",
+    "original_answer": "D",
+    "options": {
+      "A": "$(0,2)$",
+      "B": "$[0,2]$",
+      "C": "$\\{0,2\\}$",
+      "D": "$\\{0,1,2\\}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "The set of all complex numbers z such that Im(z) > 0",
+        "options": [
+          "Re(z) < 0",
+          "Im(z) > 0",
+          "Re(z) > 0",
+          "Re(z) > 0 and Im(z) > 0"
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: T",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 0,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176247.9435678,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "C",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 0,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176243.863578,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.84,
+          "logit_based_confidence": 0.26,
+          "internal_based_confidence": 0.86
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.92,
+          "logit_based_confidence": 0.35,
+          "internal_based_confidence": 0.7
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.78,
+          "logit_based_confidence": 0.39,
+          "internal_based_confidence": 0.73
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.89,
+        "logit_based_confidence": 0.27,
+        "internal_based_confidence": 0.76
+      }
+    }
+  },
+  {
+    "id": "Q5",
+    "original_question": "6. (5 points) The probability of germination of a certain seed is 0.9, and 1,000 seeds have been sown. For seeds that have not germinated, 2 more seeds need to be replanted per seed. The number of seeds for replanting is recorded as$X$, then $X$The mathematical expectation is$(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "300",
+      "D": "400"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the expected number of seeds that need to be replanted?",
+        "options": [
+          {
+            "text": "100",
+            "correct": false
+          },
+          {
+            "text": "200",
+            "correct": true
+          },
+          {
+            "text": "300",
+            "correct": false
+          },
+          {
+            "text": "400",
+            "correct": false
+          }
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 1,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176260.5215812,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.7,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.79
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.74,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.77
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.95,
+            "logit_based_confidence": 0.26,
+            "internal_based_confidence": 0.89
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the expected number of seeds that need to be replanted if the probability of germination of a certain seed is 0.9 and 1,000 seeds have been sown, assuming that for each non-germinated seed, three additional seeds need to be replanted?",
+        "options": [
+          {
+            "A": "100",
+            "B": "200",
+            "C": "300",
+            "D": "400"
+          },
+          {
+            "A": "1000",
+            "B": "2000",
+            "C": "3000",
+            "D": "4000"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 1,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176268.002732,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.85
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.85,
+            "logit_based_confidence": 0.26,
+            "internal_based_confidence": 0.86
+          }
+        }
+      }
+    ],
+    "predicted_answer": "A",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 1,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176259.322968,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.74,
+          "logit_based_confidence": 0.34,
+          "internal_based_confidence": 0.83
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.78,
+          "logit_based_confidence": 0.21,
+          "internal_based_confidence": 0.83
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.8,
+          "logit_based_confidence": 0.39,
+          "internal_based_confidence": 0.85
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.93,
+        "logit_based_confidence": 0.22,
+        "internal_based_confidence": 0.81
+      }
+    }
+  },
+  {
+    "id": "Q12",
+    "original_question": "4. (5 points) There are 3 interest groups, and students A and B each participate in one of the groups. The possibility of each student joining each group is the same. The probability of these two students joining the same interest group is ( )",
+    "original_answer": "A",
+    "options": {
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{1}{2}$",
+      "C": "$\\frac{2}{3}$",
+      "D": "$\\frac{3}{4}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the probability that both students will join different interest groups?",
+        "options": [
+          {
+            "A": "$\frac{1}{3}$"
+          },
+          {
+            "B": "$\frac{1}{2}$"
+          },
+          {
+            "C": "$\frac{2}{3}$"
+          },
+          {
+            "D": "$\frac{3}{4}$"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 2,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176282.860482,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.5,
+              "logit_based_confidence": 0.5,
+              "internal_based_confidence": 0.5
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.5,
+              "logit_based_confidence": 0.5,
+              "internal_based_confidence": 0.5
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.5,
+            "logit_based_confidence": 0.5,
+            "internal_based_confidence": 0.5
+          }
+        }
+      },
+      {
+        "augmented_question": "Il y a trois groupes d'int\u00e9r\u00eat et les \u00e9tudiants A et B participent chacun \u00e0 l'un de ces groupes. La possibilit\u00e9 pour chaque \u00e9tudiant de rejoindre chaque groupe est la m\u00eame. Quelle est la probabilit\u00e9 que ces deux \u00e9tudiants rejoignent le m\u00eame groupe d'int\u00e9r\u00eat \u00e9tant donn\u00e9 qu'ils ont d\u00e9j\u00e0 rejoint des groupes d'int\u00e9r\u00eat diff\u00e9rents?",
+        "options": [
+          {
+            "A": "$\\frac{1}{3}$"
+          },
+          {
+            "B": "$\\frac{1}{2}$"
+          },
+          {
+            "C": "$\\frac{2}{3}$"
+          },
+          {
+            "D": "$\\frac{3}{4}$"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 2,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176294.8284779,
+          "intermediate_confidences": [],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.9,
+            "internal_based_confidence": 0.9
+          }
+        }
+      }
+    ],
+    "predicted_answer": "P",
+    "reasoning": "\nAnswer: P",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 2,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176279.263092,
+      "intermediate_confidences": [],
+      "final_confidence": {
+        "self_eval_confidence": 1.0,
+        "logit_based_confidence": 1.0,
+        "internal_based_confidence": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q15",
+    "original_question": "8. (5 points)$\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$In the expansion formula, the sum of the coefficients of each term is 2, then the constant term in the expansion formula is$(\\quad)$",
+    "original_answer": "D",
+    "options": {
+      "A": "-40",
+      "B": "-20",
+      "C": "20",
+      "D": "40"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "(x + 1/x) * (2x - 1/x)^5",
+        "options": [
+          {
+            "A": "-40"
+          },
+          {
+            "B": "-20"
+          },
+          {
+            "C": "20"
+          },
+          {
+            "D": "40"
+          }
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 3,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176315.618294,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.7
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.85
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.22,
+            "internal_based_confidence": 0.81
+          }
+        }
+      },
+      {
+        "augmented_question": "(x + 1/x) * (2x - 1/x)^5",
+        "options": [
+          {
+            "A": "-40"
+          },
+          {
+            "B": "-20"
+          },
+          {
+            "C": "20"
+          },
+          {
+            "D": "40"
+          }
+        ],
+        "predicted_answer": "B",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: B",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 3,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176321.861204,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.74
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.23,
+              "internal_based_confidence": 0.87
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.87,
+            "logit_based_confidence": 0.29,
+            "internal_based_confidence": 0.88
+          }
+        }
+      }
+    ],
+    "predicted_answer": "C",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 3,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176308.785743,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.89,
+          "logit_based_confidence": 0.26,
+          "internal_based_confidence": 0.82
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.77,
+          "logit_based_confidence": 0.39,
+          "internal_based_confidence": 0.71
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.81,
+          "logit_based_confidence": 0.27,
+          "internal_based_confidence": 0.84
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.89,
+        "logit_based_confidence": 0.26,
+        "internal_based_confidence": 0.82
+      }
+    }
+  },
+  {
+    "id": "Q20",
+    "original_question": "3. (5 points) The following is about the plural$z=\\frac{2}{-1+i}$The four propositions of$(\\quad)$,$p_{1}:|z|=2$,$\\mathrm{p}_{2}: \\mathrm{z}^{2}=2 \\mathrm{i}$,$p_{3}: z$The conjugated complex number is$1+i$,$p_{4}: z$The imaginary part is -1.",
+    "original_answer": "C",
+    "options": {
+      "A": "$\\mathrm{p}_{2}, \\mathrm{p}_{3}$",
+      "B": "$p_{1}, p_{2}$",
+      "C": "$\\mathrm{p}_{2}, \\mathrm{p}_{4}$",
+      "D": "$p_{3}, p_{4}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "Which of the following propositions are true for the complex number $z=\frac{2}{-1+i}$?",
+        "options": [
+          {
+            "A": "$p_2, p_3$"
+          },
+          {
+            "B": "$p_1, p_2$"
+          },
+          {
+            "C": "$p_2, p_4$"
+          },
+          {
+            "D": "$p_3, p_4$"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 4,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176343.368588,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.0,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.0,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.33,
+            "logit_based_confidence": 0.33,
+            "internal_based_confidence": 0.33
+          }
+        }
+      },
+      {
+        "augmented_question": "(z = \\frac{2}{-1 + i})",
+        "options": [
+          {
+            "A": "1 - i"
+          },
+          {
+            "B": "-1 - i"
+          },
+          {
+            "C": "1 + i"
+          },
+          {
+            "D": "-1 + i"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 4,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176346.948559,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "(z = \\frac{2}{-1 + i})",
+        "options": [
+          {
+            "A": "1 - i"
+          },
+          {
+            "B": "-1 - i"
+          },
+          {
+            "C": "1 + i"
+          },
+          {
+            "D": "-1 + i"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nStep 4: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 4,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176352.856993,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 4,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "(z + w)^2",
+        "options": [
+          "z^2 + 2zw + w^2",
+          "z^2 - 2zw + w^2",
+          "z^2 + zw - w^2",
+          "z^2 - zw - w^2"
+        ],
+        "predicted_answer": "(",
+        "reasoning": "Step 1: ...\nStep 2: ...\nAnswer: (",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 4,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176356.5792089,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "A",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nStep 4: ...\nAnswer: A",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 4,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176332.405406,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 4,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 1.0,
+        "logit_based_confidence": 1.0,
+        "internal_based_confidence": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q26",
+    "original_question": "3. (5 points) In order to understand the vision of primary and secondary school students in a certain area, some students are planned to be selected from the primary and secondary school students in the area for investigation. We have learned in advance that there are significant differences in vision of students in primary, junior and high school in the area, while there is not much difference in vision of male and female students. Among the following sampling methods, the most reasonable sampling method is ()",
+    "original_answer": "C",
+    "options": {
+      "A": "Simple random sampling",
+      "B": "Sampling by gender",
+      "C": "Sampling by stage of study",
+      "D": "System sampling"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the most reasonable sampling method when investigating the vision of primary and secondary school students in a certain area?",
+        "options": [
+          {
+            "text": "Simple random sampling",
+            "value": "A"
+          },
+          {
+            "text": "Sampling by gender",
+            "value": "B"
+          },
+          {
+            "text": "Sampling by stage of study",
+            "value": "C"
+          },
+          {
+            "text": "System sampling",
+            "value": "D"
+          }
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: T",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 5,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176363.953672,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.8,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.7,
+              "logit_based_confidence": 0.7,
+              "internal_based_confidence": 0.7
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.9,
+            "internal_based_confidence": 0.9
+          }
+        }
+      },
+      {
+        "augmented_question": "Which of the following sampling methods is the most reasonable for understanding the vision of primary and secondary school students in a certain area?",
+        "options": [
+          {
+            "text": "Simple random sampling"
+          },
+          {
+            "text": "Sampling by gender"
+          },
+          {
+            "text": "Sampling by stage of study"
+          },
+          {
+            "text": "System sampling"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 5,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176370.105055,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "B",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: B",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 5,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176358.944885,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.9,
+          "logit_based_confidence": 0.9,
+          "internal_based_confidence": 0.9
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.8,
+          "logit_based_confidence": 0.8,
+          "internal_based_confidence": 0.8
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.7,
+          "logit_based_confidence": 0.7,
+          "internal_based_confidence": 0.7
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.8,
+        "logit_based_confidence": 0.8,
+        "internal_based_confidence": 0.8
+      }
+    }
+  },
+  {
+    "id": "Q36",
+    "original_question": "5. (5 points) Given$(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$where the expansion$\\mathrm{x}^{2}$The coefficient of$a=(\\quad)$",
+    "original_answer": "D",
+    "options": {
+      "A": "-4",
+      "B": "-3",
+      "C": "-2",
+      "D": "-1"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the coefficient of $a$ in $(1+ax)(1+x)^5$ where the expansion contains $x^2$ ?",
+        "options": [
+          {
+            "A": "-4"
+          },
+          {
+            "B": "-3"
+          },
+          {
+            "C": "-2"
+          },
+          {
+            "D": "-1"
+          }
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 6,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176380.3344378,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.84
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.35,
+              "internal_based_confidence": 0.79
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.73
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.92,
+            "logit_based_confidence": 0.31,
+            "internal_based_confidence": 0.87
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the coefficient of $a$ in $(1+ax)(1+x)^5$ where the expansion contains $x^2$ ?",
+        "options": [
+          {
+            "A": "-4"
+          },
+          {
+            "B": "-3"
+          },
+          {
+            "C": "-2"
+          },
+          {
+            "D": "-1"
+          }
+        ],
+        "predicted_answer": "$",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: $",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 6,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176387.1957572,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "A",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 6,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176374.37317,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.81,
+          "logit_based_confidence": 0.36,
+          "internal_based_confidence": 0.76
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.85,
+          "logit_based_confidence": 0.29,
+          "internal_based_confidence": 0.86
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.72,
+          "logit_based_confidence": 0.27,
+          "internal_based_confidence": 0.89
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.89,
+        "logit_based_confidence": 0.33,
+        "internal_based_confidence": 0.84
+      }
+    }
+  },
+  {
+    "id": "Q50",
+    "original_question": "5. (5 points) The air quality monitoring data in a certain area shows that the probability of good air quality in one day is 0.75, the probability of good air quality in two consecutive days is 0.6, and it is known that the air quality in one day is excellent, then the probability of good air quality in the next day is ($)$",
+    "original_answer": "A",
+    "options": {
+      "A": "0.8",
+      "B": "0.75",
+      "C": "0.6",
+      "D": "0.45"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the probability of moderate air quality the next day?",
+        "options": [
+          {
+            "A": "0.15"
+          },
+          {
+            "B": "0.25"
+          },
+          {
+            "C": "0.35"
+          },
+          {
+            "D": "0.55"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 7,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176405.219876,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.83,
+              "logit_based_confidence": 0.21,
+              "internal_based_confidence": 0.83
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.24,
+              "internal_based_confidence": 0.73
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.71,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.85
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.85,
+            "logit_based_confidence": 0.4,
+            "internal_based_confidence": 0.82
+          }
+        }
+      }
+    ],
+    "predicted_answer": "A",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 7,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176401.289013,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.88,
+          "logit_based_confidence": 0.28,
+          "internal_based_confidence": 0.79
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.73,
+          "logit_based_confidence": 0.31,
+          "internal_based_confidence": 0.74
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.75,
+          "logit_based_confidence": 0.24,
+          "internal_based_confidence": 0.89
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.88,
+        "logit_based_confidence": 0.28,
+        "internal_based_confidence": 0.76
+      }
+    }
+  },
+  {
+    "id": "Q67",
+    "original_question": "2. (5 points) Set$(1+i) x=1+y i$, in$x, y$is a real number, then$|x+y i|=(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "1",
+      "B": "$\\sqrt{2}$",
+      "C": "$\\sqrt{3}$",
+      "D": "2"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "Find the modulus of |x + yi|",
+        "options": [
+          {
+            "A": "1"
+          },
+          {
+            "B": "\\sqrt{2}"
+          },
+          {
+            "C": "\\sqrt{3}"
+          },
+          {
+            "D": "2"
+          }
+        ],
+        "predicted_answer": "B",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: B",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 8,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176426.309789,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.81,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.74,
+              "logit_based_confidence": 0.3,
+              "internal_based_confidence": 0.81
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.36,
+            "internal_based_confidence": 0.75
+          }
+        }
+      },
+      {
+        "augmented_question": "Find the modulus of the expression $(1+i)x=1+y i$ when $x$ and $y$ are real numbers.",
+        "options": [
+          {
+            "A": "1",
+            "B": "$\\sqrt{2}$",
+            "C": "$\\sqrt{3}$",
+            "D": "2"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 8,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176432.84411,
+          "intermediate_confidences": [],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "D",
+    "reasoning": "\nAnswer: D",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 8,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176419.66352,
+      "intermediate_confidences": [],
+      "final_confidence": {
+        "self_eval_confidence": 2.0,
+        "logit_based_confidence": 2.0,
+        "internal_based_confidence": 2.0
+      }
+    }
+  },
+  {
+    "id": "Q69",
+    "original_question": "4. (5 points) The shuttle bus of a certain company is at 7:$00,8: 00,8: 30$Departure, Xiao Ming arrives at the departure station between 7:50 and 8:30 and takes a shuttle bus. The time to arrive at the departure station is random, so the probability that he will wait for the train for no more than 10 minutes is ($)$",
+    "original_answer": "B",
+    "options": {
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{1}{2}$",
+      "C": "$\\frac{2}{3}$",
+      "D": "$\\frac{3}{4}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "Let P be the probability that Xiao Ming waits for the train for no more than 10 minutes. Express P in terms of the complementary event.",
+        "options": [
+          {
+            "A": "$\\frac{1}{3}$"
+          },
+          {
+            "B": "$\\frac{1}{2}$"
+          },
+          {
+            "C": "$\\frac{2}{3}$"
+          },
+          {
+            "D": "$\\frac{3}{4}$"
+          }
+        ],
+        "predicted_answer": "P",
+        "reasoning": "Step 1: ...\nStep 2: ...\nAnswer: P",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 9,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176448.537749,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "P(X <= 10)",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: T",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 9,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176455.392831,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "A",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 9,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176443.421987,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.83,
+          "logit_based_confidence": 0.32,
+          "internal_based_confidence": 0.87
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.81,
+          "logit_based_confidence": 0.36,
+          "internal_based_confidence": 0.86
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.87,
+          "logit_based_confidence": 0.25,
+          "internal_based_confidence": 0.75
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.87,
+        "logit_based_confidence": 0.31,
+        "internal_based_confidence": 0.86
+      }
+    }
+  },
+  {
+    "id": "Q71",
+    "original_question": "8. (5 min) Young$a>b>1,0<c<1$, but($)$",
+    "original_answer": "C",
+    "options": {
+      "A": "$a^{c}<b^{c}$",
+      "B": "$a b^{c}<b a^{c}$",
+      "C": "$a \\log _{b} c<b \\log _{a} c$",
+      "D": "$\\log _{a} c<\\log _{b} c$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the order of growth between $a$, $b$ and $c$ if $a > b > 1$ and $0 < c < 1$ ?",
+        "options": [
+          {
+            "A": "linear"
+          },
+          {
+            "B": "quadratic"
+          },
+          {
+            "C": "exponential"
+          },
+          {
+            "D": "polynomial"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 10,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176474.8501608,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.9,
+            "internal_based_confidence": 0.9
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the order of growth between $a$, $b$ and $c$ if $a > b > 1$ and $0 < c < 1$ ?",
+        "options": [
+          {
+            "A": "linear"
+          },
+          {
+            "B": "quadratic"
+          },
+          {
+            "C": "exponential"
+          },
+          {
+            "D": "polynomial"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 10,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176490.730331,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.89,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.73,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.87
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.93,
+            "logit_based_confidence": 0.34,
+            "internal_based_confidence": 0.87
+          }
+        }
+      }
+    ],
+    "predicted_answer": "A",
+    "reasoning": "\nAnswer: A",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 10,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176468.212367,
+      "intermediate_confidences": [],
+      "final_confidence": {
+        "self_eval_confidence": 0.9,
+        "logit_based_confidence": 0.9,
+        "internal_based_confidence": 0.9
+      }
+    }
+  },
+  {
+    "id": "Q79",
+    "original_question": "5. (5 min) Young$\\tan a=\\frac{3}{4}$, then $\\cos ^{2} a+2 \\sin 2 a=(\\quad)$",
+    "original_answer": "A",
+    "options": {
+      "A": "$\\frac{64}{25}$",
+      "B": "$\\frac{48}{25}$",
+      "C": "1",
+      "D": "$\\frac{16}{25}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "(cos^2)(a) + 2sin(2a)",
+        "options": [
+          {
+            "A": "64/25"
+          },
+          {
+            "B": "48/25"
+          },
+          {
+            "C": "1"
+          },
+          {
+            "D": "16/25"
+          }
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: T",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 11,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176516.836462,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "C",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 11,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176506.697574,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.82,
+          "logit_based_confidence": 0.24,
+          "internal_based_confidence": 0.86
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.72,
+          "logit_based_confidence": 0.24,
+          "internal_based_confidence": 0.83
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.78,
+          "logit_based_confidence": 0.27,
+          "internal_based_confidence": 0.8
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.88,
+        "logit_based_confidence": 0.27,
+        "internal_based_confidence": 0.76
+      }
+    }
+  },
+  {
+    "id": "Q98",
+    "original_question": "11. (5 min) Young$x=-2$It's a function$f(x)=\\left(x^{2}+a x-1\\right) e^{x-1}$The extreme point of$f(x)$The minimum value of$(\\quad)$",
+    "original_answer": "A",
+    "options": {
+      "A": "-1",
+      "B": "$-2 e^{-3}$",
+      "C": "$5 \\mathrm{e}^{-3}$",
+      "D": "1"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "Find the minimum value of f(x) = (x^2 + ax - 1)e^{x-1} at x = -2",
+        "options": [
+          {
+            "A": "-1"
+          },
+          {
+            "B": "-2e^{-3}"
+          },
+          {
+            "C": "5e^{-3}"
+          },
+          {
+            "D": "1"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 12,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176548.4826722,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.9,
+            "internal_based_confidence": 0.9
+          }
+        }
+      },
+      {
+        "augmented_question": "Find the minimum value of the function f(x) = (x^2 + ax - 1)e^{x-1}",
+        "options": [
+          {
+            "value": "-1",
+            "correct": true
+          },
+          {
+            "value": "-2e^{-3}",
+            "correct": false
+          },
+          {
+            "value": "5e^{-3}",
+            "correct": false
+          },
+          {
+            "value": "1",
+            "correct": false
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 12,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176564.451273,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.9,
+            "internal_based_confidence": 0.9
+          }
+        }
+      }
+    ],
+    "predicted_answer": "B",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: B",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 12,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176532.610911,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.93,
+          "logit_based_confidence": 0.3,
+          "internal_based_confidence": 0.82
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.9,
+          "logit_based_confidence": 0.4,
+          "internal_based_confidence": 0.89
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.75,
+          "logit_based_confidence": 0.32,
+          "internal_based_confidence": 0.85
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.89,
+        "logit_based_confidence": 0.24,
+        "internal_based_confidence": 0.75
+      }
+    }
+  },
+  {
+    "id": "Q101",
+    "original_question": "4. (5 points)$(\\mathrm{x}+\\mathrm{y})(2 \\mathrm{x}-\\mathrm{y})^{5}$in the expansion$x^{3} \\mathrm{y}^{3}$The coefficient is$(\\quad)$",
+    "original_answer": "C",
+    "options": {
+      "A": "-80",
+      "B": "-40",
+      "C": "40",
+      "D": "80"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the coefficient of x^3y^3 in the expansion of (x + y)^5?",
+        "options": [
+          "-80",
+          "-40",
+          "40",
+          "80"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 13,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176578.799319,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the coefficient of x^3y^3 in (x+y)(2x-y)^5?",
+        "options": [
+          {
+            "A": "-80"
+          },
+          {
+            "B": "-40"
+          },
+          {
+            "C": "40"
+          },
+          {
+            "D": "80"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 13,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176583.88706,
+          "intermediate_confidences": [],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "D",
+    "reasoning": "\nAnswer: D",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 13,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176572.339246,
+      "intermediate_confidences": [],
+      "final_confidence": {
+        "self_eval_confidence": 1.0,
+        "logit_based_confidence": 1.0,
+        "internal_based_confidence": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q104",
+    "original_question": "9. (5 points) Arithmetic sequence$\\left\\{a_{n}\\right\\}$The first item is 1, and the tolerance is not 0.$a_{2}, a_{3}, a_{6}$In equal proportional sequence,$\\left\\{a_{n}\\right\\}$The sum of the first 6 items is$(\\quad)$",
+    "original_answer": "A",
+    "options": {
+      "A": "-24",
+      "B": "-3",
+      "C": "3",
+      "D": "8"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the sum of the first 6 terms of an arithmetic sequence with $a_1=1$ and a non-zero tolerance?",
+        "options": [
+          {
+            "A": "-24"
+          },
+          {
+            "B": "-3"
+          },
+          {
+            "C": "3"
+          },
+          {
+            "D": "8"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 14,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176609.513254,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.77,
+              "logit_based_confidence": 0.26,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.21,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.78
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.38,
+            "internal_based_confidence": 0.86
+          }
+        }
+      }
+    ],
+    "predicted_answer": "D",
+    "reasoning": "\nAnswer: D",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 14,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176594.158689,
+      "intermediate_confidences": [],
+      "final_confidence": {
+        "self_eval_confidence": 0.7,
+        "logit_based_confidence": 0.7,
+        "internal_based_confidence": 0.7
+      }
+    }
+  },
+  {
+    "id": "Q114",
+    "original_question": "1. (5 points$) \\frac{1+2 i}{1-2 i}=(\\quad)$",
+    "original_answer": "D",
+    "options": {
+      "A": "$-\\frac{4}{5}-\\frac{3}{5} i$",
+      "B": "$-\\frac{4}{5}+\\frac{3}{5} i$",
+      "C": "$-\\frac{3}{5}-\\frac{4}{5} i$",
+      "D": "$-\\frac{3}{5}+\\frac{4}{5} i$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "(1+2i) * (-1-2i)",
+        "options": [
+          "-4-6i",
+          "-4+6i",
+          "4-6i",
+          "4+6i"
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: T",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 15,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176615.445375,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "(1+2i) * (-1+2i)",
+        "options": [
+          "-4-6i",
+          "-4+6i",
+          "4-6i",
+          "4+6i"
+        ],
+        "predicted_answer": "T",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: T",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 15,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176618.413991,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "(z_1 + z_2)^* = z_1^* + z_2^*",
+        "options": [
+          "-\frac{1}{5}-\frac{2}{5} i",
+          "-\frac{1}{5}+\frac{2}{5} i",
+          "\frac{1}{5}-\frac{2}{5} i",
+          "\frac{1}{5}+\frac{2}{5} i"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 15,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176623.433357,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "(x + y) / (x - y)",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 15,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176630.654318,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.8,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.7,
+              "logit_based_confidence": 0.7,
+              "internal_based_confidence": 0.7
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.7,
+            "logit_based_confidence": 0.7,
+            "internal_based_confidence": 0.7
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the absolute value of $(x + y) / (x - y)$?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "predicted_answer": "$",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: $",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 15,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176635.516269,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "Find the absolute value of $(x + y) / (x - y)$.",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 15,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176638.382378,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "A",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 15,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176612.480862,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.95,
+          "logit_based_confidence": 0.28,
+          "internal_based_confidence": 0.71
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.92,
+          "logit_based_confidence": 0.27,
+          "internal_based_confidence": 0.73
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.81,
+          "logit_based_confidence": 0.25,
+          "internal_based_confidence": 0.81
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.93,
+        "logit_based_confidence": 0.28,
+        "internal_based_confidence": 0.88
+      }
+    }
+  },
+  {
+    "id": "Q124",
+    "original_question": "4. (5 minutes) Young$\\sin a=\\frac{1}{3}$, then $\\cos 2 a=(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "$\\frac{8}{9}$",
+      "B": "$\\frac{7}{9}$",
+      "C": "$-\\frac{7}{9}$",
+      "D": "$-\\frac{8}{9}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "Find the value of cos(2a)",
+        "options": [
+          {
+            "A": "8/9"
+          },
+          {
+            "B": "7/9"
+          },
+          {
+            "C": "-7/9"
+          },
+          {
+            "D": "-8/9"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 16,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176650.363467,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.78
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.85,
+              "logit_based_confidence": 0.34,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.37,
+              "internal_based_confidence": 0.85
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.9,
+            "logit_based_confidence": 0.35,
+            "internal_based_confidence": 0.83
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the value of cos(2a)?",
+        "options": [
+          {
+            "A": "8/9"
+          },
+          {
+            "B": "7/9"
+          },
+          {
+            "C": "-7/9"
+          },
+          {
+            "D": "-8/9"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 16,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176657.738063,
+          "intermediate_confidences": [],
+          "final_confidence": {
+            "self_eval_confidence": 2.0,
+            "logit_based_confidence": 2.0,
+            "internal_based_confidence": 2.0
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the value of cos(2a)?",
+        "options": [
+          {
+            "A": "8/9"
+          },
+          {
+            "B": "7/9"
+          },
+          {
+            "C": "-7/9"
+          },
+          {
+            "D": "-8/9"
+          }
+        ],
+        "predicted_answer": "B",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: B",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 16,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176660.586349,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.7,
+              "logit_based_confidence": 0.33,
+              "internal_based_confidence": 0.86
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.74
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.29,
+            "internal_based_confidence": 0.88
+          }
+        }
+      }
+    ],
+    "predicted_answer": "D",
+    "reasoning": "\nAnswer: D",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 16,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176646.249027,
+      "intermediate_confidences": [],
+      "final_confidence": {
+        "self_eval_confidence": 1.0,
+        "logit_based_confidence": 1.0,
+        "internal_based_confidence": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q127",
+    "original_question": "8. (5 points) The probability of using mobile payment for each member in a group is$\\mathrm{p}$, the payment methods of each member are independent of each other.$\\mathrm{X}$The number of people using mobile payments for the 10 members of this group,$D X=2.4, P$$(x=4)<P(X=6)$, then $p=(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "0.7",
+      "B": "0.6",
+      "C": "0.4",
+      "D": "0.3"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the probability of at least 4 out of 10 members using mobile payments in a group if the probability of each member using mobile payments is p and they are independent?",
+        "options": [
+          {
+            "A": "0.7"
+          },
+          {
+            "B": "0.6"
+          },
+          {
+            "C": "0.4"
+          },
+          {
+            "D": "0.3"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 17,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176675.453797,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.95,
+              "logit_based_confidence": 0.95,
+              "internal_based_confidence": 0.95
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.05,
+              "logit_based_confidence": 0.05,
+              "internal_based_confidence": 0.05
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "C",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 17,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176669.423244,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.78,
+          "logit_based_confidence": 0.3,
+          "internal_based_confidence": 0.71
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.87,
+          "logit_based_confidence": 0.26,
+          "internal_based_confidence": 0.77
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.75,
+          "logit_based_confidence": 0.2,
+          "internal_based_confidence": 0.82
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.86,
+        "logit_based_confidence": 0.32,
+        "internal_based_confidence": 0.78
+      }
+    }
+  },
+  {
+    "id": "Q150",
+    "original_question": "5. Equal ratio sequences with all terms known to be positive$\\left\\{a_{n}\\right\\}$The sum of the first 4 items is 15, and$a_{5}=3 a_{3}+4 a_{1}$, then $a_{3}=(\\quad)$",
+    "original_answer": "C",
+    "options": {
+      "A": "16",
+      "B": "8",
+      "C": "4",
+      "D": "2"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the value of $a_3$ in the given sequence?",
+        "options": [
+          {
+            "A": "16",
+            "B": "8",
+            "C": "4",
+            "D": "2"
+          }
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 18,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176688.1564002,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.22,
+              "internal_based_confidence": 0.77
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.87,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.87
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.28,
+              "internal_based_confidence": 0.72
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.27,
+            "internal_based_confidence": 0.82
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the value of $a_3$ in the given sequence?",
+        "options": [
+          {
+            "A": "16",
+            "B": "8",
+            "C": "4",
+            "D": "2"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 18,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176689.380082,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.93,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.76,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.7
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.83
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.86,
+            "logit_based_confidence": 0.23,
+            "internal_based_confidence": 0.76
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the value of $a_3$ in the given sequence?",
+        "options": [
+          {
+            "A": "16",
+            "B": "8",
+            "C": "4",
+            "D": "2"
+          }
+        ],
+        "predicted_answer": "C",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 18,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176690.602814,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.79,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.83
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.36,
+              "internal_based_confidence": 0.77
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.33,
+            "internal_based_confidence": 0.83
+          }
+        }
+      }
+    ],
+    "predicted_answer": "D",
+    "reasoning": "\nAnswer: D",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 18,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176686.8881762,
+      "intermediate_confidences": [],
+      "final_confidence": {
+        "self_eval_confidence": 0.0,
+        "logit_based_confidence": 0.0,
+        "internal_based_confidence": 0.0
+      }
+    }
+  },
+  {
+    "id": "Q153",
+    "original_question": "11. Set$f(x)$is defined as$R$Even function, and$(0,+\\infty)$monotonically decreasing,$(\\quad)$",
+    "original_answer": "C",
+    "options": {
+      "A": "$f\\left(\\log _{5} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)$",
+      "B": "$f\\left(\\log _{8} \\frac{1}{4}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)$",
+      "C": "$f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$",
+      "D": "$f\\left(2^{-\\frac{2}{3}}\\right)>f\\left(2^{-\\frac{3}{2}}\\right)>f\\left(\\log _{5} \\frac{1}{4}\\right)$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the value of f(x) when x = 2^(-2/3)?",
+        "options": [
+          {
+            "A": "-2"
+          },
+          {
+            "B": "-1"
+          },
+          {
+            "C": "0"
+          },
+          {
+            "D": "1"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 19,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176697.265353,
+          "intermediate_confidences": [],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the value of f when x = 2^(-3/2)?",
+        "options": [
+          {
+            "A": "$f(-2)$"
+          },
+          {
+            "B": "$f(-1)$"
+          },
+          {
+            "C": "$f(0)$"
+          },
+          {
+            "D": "$f(1)$"
+          }
+        ],
+        "predicted_answer": "S",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: S",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 19,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176704.5376499,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.5,
+              "logit_based_confidence": 0.5,
+              "internal_based_confidence": 0.5
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.0,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.0,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.0,
+            "logit_based_confidence": 0.0,
+            "internal_based_confidence": 0.0
+          }
+        }
+      },
+      {
+        "augmented_question": "What is the value of f at x = 2^(-3/2)?",
+        "options": [
+          {
+            "A": "$f(-2)$"
+          },
+          {
+            "B": "$f(-1)$"
+          },
+          {
+            "C": "$f(0)$"
+          },
+          {
+            "D": "$f(1)$"
+          }
+        ],
+        "predicted_answer": "F",
+        "reasoning": "\nAnswer: F",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 19,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176712.652371,
+          "intermediate_confidences": [],
+          "final_confidence": {
+            "self_eval_confidence": 0.8,
+            "logit_based_confidence": 0.8,
+            "internal_based_confidence": 0.8
+          }
+        }
+      }
+    ],
+    "predicted_answer": "C",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 19,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176693.780344,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.88,
+          "logit_based_confidence": 0.34,
+          "internal_based_confidence": 0.79
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.85,
+          "logit_based_confidence": 0.22,
+          "internal_based_confidence": 0.72
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.79,
+          "logit_based_confidence": 0.23,
+          "internal_based_confidence": 0.84
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.88,
+        "logit_based_confidence": 0.38,
+        "internal_based_confidence": 0.75
+      }
+    }
+  },
+  {
+    "id": "Q156",
+    "original_question": "2. Plural$\\frac{1}{1-3 i}$The imaginary part is$(\\quad)$",
+    "original_answer": "D",
+    "options": {
+      "A": "$-\\frac{3}{10}$",
+      "B": "$-\\frac{1}{10}$",
+      "C": "$\\frac{1}{10}$",
+      "D": "$\\frac{3}{10}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "(x + y) + z",
+        "options": [
+          "x + y + z",
+          "x + y - z",
+          "x - y + z",
+          "x - y - z"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 20,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176718.2546601,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "(x + y) * (x - y)",
+        "options": [
+          "x^2 - y^2",
+          "x^2 + y^2",
+          "xy",
+          "yx"
+        ],
+        "predicted_answer": "(",
+        "reasoning": "\nAnswer: (",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 20,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176721.9480891,
+          "intermediate_confidences": [],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      },
+      {
+        "augmented_question": "The imaginary part of $2 - 3i$ is $-3$.",
+        "options": [
+          "-$\frac{3}{10}$",
+          "-$\frac{1}{10}$",
+          "$\frac{1}{10}$",
+          "$\frac{3}{10}$"
+        ],
+        "predicted_answer": "<",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: <",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 20,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176729.418895,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.5,
+              "logit_based_confidence": 0.5,
+              "internal_based_confidence": 0.5
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.0,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.0,
+            "logit_based_confidence": 0.0,
+            "internal_based_confidence": 0.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "B",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: B",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 20,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176716.412151,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.71,
+          "logit_based_confidence": 0.21,
+          "internal_based_confidence": 0.78
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.95,
+          "logit_based_confidence": 0.36,
+          "internal_based_confidence": 0.86
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.87,
+          "logit_based_confidence": 0.29,
+          "internal_based_confidence": 0.8
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.94,
+        "logit_based_confidence": 0.2,
+        "internal_based_confidence": 0.87
+      }
+    }
+  },
+  {
+    "id": "Q161",
+    "original_question": "7. In$\\triangle A B C$middle,$\\cos C=\\frac{2}{3}, A C=4, B C=3$, then $\\cos B=(\\quad)$",
+    "original_answer": "A",
+    "options": {
+      "A": "$\\frac{1}{9}$",
+      "B": "$\\frac{1}{3}$",
+      "C": "$\\frac{1}{2}$",
+      "D": "$\\frac{2}{3}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "If \\cos(C) = \\frac{2}{3} and AC = 4, what is the value of BC?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 21,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176760.443973,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.74,
+              "logit_based_confidence": 0.39,
+              "internal_based_confidence": 0.72
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.91,
+              "logit_based_confidence": 0.37,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.71,
+              "logit_based_confidence": 0.38,
+              "internal_based_confidence": 0.82
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.25,
+            "internal_based_confidence": 0.9
+          }
+        }
+      }
+    ],
+    "predicted_answer": "C",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 21,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176745.294335,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.86,
+          "logit_based_confidence": 0.22,
+          "internal_based_confidence": 0.87
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.78,
+          "logit_based_confidence": 0.22,
+          "internal_based_confidence": 0.83
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.88,
+          "logit_based_confidence": 0.3,
+          "internal_based_confidence": 0.75
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.92,
+        "logit_based_confidence": 0.34,
+        "internal_based_confidence": 0.81
+      }
+    }
+  },
+  {
+    "id": "Q176",
+    "original_question": "3. During the COVID-19 epidemic prevention and control period, a supermarket opened an online sales business and could complete the delivery of 1,200 orders per day. Due to the sharp increase in order volume, the order backlog was caused. In order to solve the difficulties, many volunteers enthusiastically signed up to participate in the delivery work. It is known that the supermarket had a backlog of 500 orders on a certain day. It is estimated that the probability of more than 1,600 new orders on the next day is 0.05. Each volunteer can complete the delivery of 50 orders per day. In order to ensure that the probability of completing the backlog order and the delivery of the same day is no less than 0.95, at least a volunteer is required ()",
+    "original_answer": "B",
+    "options": {
+      "A": "10",
+      "B": "18",
+      "C": "24",
+      "D": "32"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "How many volunteers are required to ensure that the probability of [completing the backlog order] and delivering it on the same day is at least 0.95?",
+        "options": [
+          {
+            "A": "10"
+          },
+          {
+            "B": "18"
+          },
+          {
+            "C": "24"
+          },
+          {
+            "D": "32"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 22,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176775.292125,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.86,
+              "logit_based_confidence": 0.27,
+              "internal_based_confidence": 0.88
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.78,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.82
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.76
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.89,
+            "logit_based_confidence": 0.3,
+            "internal_based_confidence": 0.81
+          }
+        }
+      }
+    ],
+    "predicted_answer": "T",
+    "reasoning": "\nAnswer: T",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 22,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176773.2500072,
+      "intermediate_confidences": [],
+      "final_confidence": {
+        "self_eval_confidence": 1.0,
+        "logit_based_confidence": 1.0,
+        "internal_based_confidence": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q185",
+    "original_question": "3. Given$(1-i)^{2} z=3+2 i$, then $z=(\\quad)$",
+    "original_answer": "B",
+    "options": {
+      "A": "$-1-\\frac{3}{2} i$",
+      "B": "$-1+\\frac{3}{2} i$",
+      "C": "$-\\frac{3}{2}+i$",
+      "D": "$-\\frac{3}{2}-i$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "(1-i)^2 * z = 3 + 2i",
+        "options": [
+          "-1 - 3/2i",
+          "-1 + 3/2i",
+          "-3/2 + i",
+          "-3/2 - i"
+        ],
+        "predicted_answer": "B",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: B",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 23,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176802.966026,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.92,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.87
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.84,
+              "logit_based_confidence": 0.35,
+              "internal_based_confidence": 0.75
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.82,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.76
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.94,
+            "logit_based_confidence": 0.39,
+            "internal_based_confidence": 0.83
+          }
+        }
+      }
+    ],
+    "predicted_answer": "$",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nStep 4: ...\nStep 5: ...\nStep 6: ...\nStep 7: ...\nStep 8: ...\nAnswer: $",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 23,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176790.042253,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 4,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 5,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 6,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 7,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 8,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 1.0,
+        "logit_based_confidence": 1.0,
+        "internal_based_confidence": 1.0
+      }
+    }
+  },
+  {
+    "id": "Q197",
+    "original_question": "6. Assign 5 volunteers to figure skating, short track speed skating, ice hockey and ice display for training. Each volunteer is only assigned to 1 project, and at least 1 volunteer is assigned to each project. There will be a total of different allocation plans ()",
+    "original_answer": "C",
+    "options": {
+      "A": "60 kinds",
+      "B": "120 kinds",
+      "C": "240 kinds",
+      "D": "480 kinds"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "How many different allocation plans are possible if 5 volunteers are assigned to figure skating, short track speed skating, ice hockey and ice display for training?",
+        "options": [
+          {
+            "A": "60 kinds"
+          },
+          {
+            "B": "120 kinds"
+          },
+          {
+            "C": "240 kinds"
+          },
+          {
+            "D": "480 kinds"
+          }
+        ],
+        "predicted_answer": "A",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: A",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 24,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176827.003424,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.72,
+              "logit_based_confidence": 0.25,
+              "internal_based_confidence": 0.87
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.75,
+              "logit_based_confidence": 0.31,
+              "internal_based_confidence": 0.83
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.88,
+              "logit_based_confidence": 0.32,
+              "internal_based_confidence": 0.75
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.88,
+            "logit_based_confidence": 0.35,
+            "internal_based_confidence": 0.77
+          }
+        }
+      }
+    ],
+    "predicted_answer": "C",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: C",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 24,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176814.7028291,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.78,
+          "logit_based_confidence": 0.27,
+          "internal_based_confidence": 0.8
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.86,
+          "logit_based_confidence": 0.32,
+          "internal_based_confidence": 0.85
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.92,
+          "logit_based_confidence": 0.37,
+          "internal_based_confidence": 0.82
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.86,
+        "logit_based_confidence": 0.36,
+        "internal_based_confidence": 0.81
+      }
+    }
+  },
+  {
+    "id": "Q207",
+    "original_question": "9. Given ball$O$The radius is 1, and the vertex of the four-ringed pheasant is$O$, all four vertices on the bottom are on the ball$O$On the spherical surface, when the volume of the four-ringed pheasant is the largest, its height is ()",
+    "original_answer": "C",
+    "options": {
+      "A": "$\\frac{1}{3}$",
+      "B": "$\\frac{1}{2}$",
+      "C": "$\\frac{\\sqrt{3}}{3}$",
+      "D": "$\\frac{\\sqrt{2}}{2}$"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the height of a four-leaf clover when its area is maximized?",
+        "options": [
+          {
+            "A": "1/3"
+          },
+          {
+            "B": "1/2"
+          },
+          {
+            "C": "sqrt(3)/3"
+          },
+          {
+            "D": "sqrt(2)/2"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nStep 4: ...\nStep 5: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 25,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176858.767738,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 4,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            },
+            {
+              "step_number": 5,
+              "self_eval_confidence": 1.0,
+              "logit_based_confidence": 1.0,
+              "internal_based_confidence": 1.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 1.0,
+            "logit_based_confidence": 1.0,
+            "internal_based_confidence": 1.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "D",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: D",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 25,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176842.783314,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.75,
+          "logit_based_confidence": 0.35,
+          "internal_based_confidence": 0.75
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.79,
+          "logit_based_confidence": 0.32,
+          "internal_based_confidence": 0.71
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.85,
+          "logit_based_confidence": 0.25,
+          "internal_based_confidence": 0.78
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.87,
+        "logit_based_confidence": 0.39,
+        "internal_based_confidence": 0.9
+      }
+    }
+  },
+  {
+    "id": "Q208",
+    "original_question": "10. A chess player plays one game with three chess players A, B and C, and the results of each game are independent of each other. It is known that the probability of winning the game between the player and A, B and C are respectively$p_{1}, p_{2}, p_{3}$, and$p_{3}>p_{2}>p_{1}>0$. The probability of the player winning two sets in a row is$p$, but ()",
+    "original_answer": "D",
+    "options": {
+      "A": "$p$Has nothing to do with the order of the game between the player and A, B and C",
+      "B": "The player plays against A in the second set,$p$maximum",
+      "C": "The player plays against B in the second set,$p$maximum",
+      "D": "The player plays against C in the second set,$p$maximum"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the probability that the player wins two games in a row if the player wins the first game against A with probability $p_{1}$ and the second game against B with probability $p_{2}$?",
+        "options": [
+          {
+            "A": "$p^{2}$"
+          },
+          {
+            "B": "$p_{1}p_{2}$"
+          },
+          {
+            "C": "$p_{1}(1-p_{2})$"
+          },
+          {
+            "D": "$p_{2}(1-p_{1})$"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 26,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176873.120877,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.9,
+              "logit_based_confidence": 0.9,
+              "internal_based_confidence": 0.9
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.8,
+              "logit_based_confidence": 0.8,
+              "internal_based_confidence": 0.8
+            },
+            {
+              "step_number": 3,
+              "self_eval_confidence": 0.72,
+              "logit_based_confidence": 0.72,
+              "internal_based_confidence": 0.72
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.72,
+            "logit_based_confidence": 0.72,
+            "internal_based_confidence": 0.72
+          }
+        }
+      }
+    ],
+    "predicted_answer": "T",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nStep 4: ...\nStep 5: ...\nStep 6: ...\nAnswer: T",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 26,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176868.586829,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 1.0,
+          "logit_based_confidence": 1.0,
+          "internal_based_confidence": 1.0
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.9,
+          "logit_based_confidence": 0.9,
+          "internal_based_confidence": 0.9
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.8,
+          "logit_based_confidence": 0.8,
+          "internal_based_confidence": 0.8
+        },
+        {
+          "step_number": 4,
+          "self_eval_confidence": 0.7,
+          "logit_based_confidence": 0.7,
+          "internal_based_confidence": 0.7
+        },
+        {
+          "step_number": 5,
+          "self_eval_confidence": 0.6,
+          "logit_based_confidence": 0.6,
+          "internal_based_confidence": 0.6
+        },
+        {
+          "step_number": 6,
+          "self_eval_confidence": 0.5,
+          "logit_based_confidence": 0.5,
+          "internal_based_confidence": 0.5
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.5,
+        "logit_based_confidence": 0.5,
+        "internal_based_confidence": 0.5
+      }
+    }
+  },
+  {
+    "id": "Q209",
+    "original_question": "12. Given functions$f(x), g(x)$The domains of$\\mathbf{R}$, and$f(x)+g(2-x)=5, g(x)-f(x-4)=7$. like$y=g(x)$Image about straight lines$x=2$symmetry,$g(2)=4$, then $\\sum_{k=1}^{22} f(k)=()$",
+    "original_answer": "D",
+    "options": {
+      "A": "-21",
+      "B": "-22",
+      "C": "-23",
+      "D": "-24"
+    },
+    "augmented_verified": [
+      {
+        "augmented_question": "What is the value of $f(-2)$?",
+        "options": [
+          {
+            "A": "-1"
+          },
+          {
+            "B": "0"
+          },
+          {
+            "C": "1"
+          },
+          {
+            "D": "2"
+          }
+        ],
+        "predicted_answer": "D",
+        "reasoning": "Step 1: ...\nStep 2: ...\nAnswer: D",
+        "metadata": {
+          "temperature": 0.3,
+          "run_id": 27,
+          "model_name": "gpt-3.5-turbo",
+          "timestamp": 1745176891.7745411,
+          "intermediate_confidences": [
+            {
+              "step_number": 1,
+              "self_eval_confidence": 0.0,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.0
+            },
+            {
+              "step_number": 2,
+              "self_eval_confidence": 0.0,
+              "logit_based_confidence": 0.0,
+              "internal_based_confidence": 0.0
+            }
+          ],
+          "final_confidence": {
+            "self_eval_confidence": 0.0,
+            "logit_based_confidence": 0.0,
+            "internal_based_confidence": 0.0
+          }
+        }
+      }
+    ],
+    "predicted_answer": "B",
+    "reasoning": "Step 1: ...\nStep 2: ...\nStep 3: ...\nAnswer: B",
+    "metadata": {
+      "temperature": 0.3,
+      "run_id": 27,
+      "model_name": "gpt-3.5-turbo",
+      "timestamp": 1745176887.914433,
+      "intermediate_confidences": [
+        {
+          "step_number": 1,
+          "self_eval_confidence": 0.8,
+          "logit_based_confidence": 0.37,
+          "internal_based_confidence": 0.74
+        },
+        {
+          "step_number": 2,
+          "self_eval_confidence": 0.8,
+          "logit_based_confidence": 0.35,
+          "internal_based_confidence": 0.84
+        },
+        {
+          "step_number": 3,
+          "self_eval_confidence": 0.9,
+          "logit_based_confidence": 0.34,
+          "internal_based_confidence": 0.75
+        }
+      ],
+      "final_confidence": {
+        "self_eval_confidence": 0.85,
+        "logit_based_confidence": 0.32,
+        "internal_based_confidence": 0.84
+      }
+    }
+  }
+]
